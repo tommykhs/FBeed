@@ -7,13 +7,16 @@ Fetches FetchRSS feeds, accumulates posts, and generates metadata.
 import os
 import json
 import re
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import yaml
 import requests
 import feedparser
 from xml.etree import ElementTree as ET
 from xml.dom import minidom
+
+# Hong Kong timezone (UTC+8)
+HK_TZ = timezone(timedelta(hours=8))
 
 
 def load_config():
@@ -89,7 +92,7 @@ def create_new_feed(feed_data):
     ET.SubElement(channel, 'title').text = feed_data.feed.get('title', 'Untitled Feed')
     ET.SubElement(channel, 'description').text = feed_data.feed.get('description', '')
     ET.SubElement(channel, 'link').text = feed_data.feed.get('link', '')
-    ET.SubElement(channel, 'pubDate').text = datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S +0000')
+    ET.SubElement(channel, 'pubDate').text = datetime.now(HK_TZ).strftime('%a, %d %b %Y %H:%M:%S +0800')
     
     # Add Facebook icon as feed image
     image = ET.SubElement(channel, 'image')
@@ -169,7 +172,7 @@ def add_items_to_feed(tree, feed_data, existing_guids):
     # Update channel pubDate
     pubdate_elem = channel.find('pubDate')
     if pubdate_elem is not None:
-        pubdate_elem.text = datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S +0000')
+        pubdate_elem.text = datetime.now(HK_TZ).strftime('%a, %d %b %Y %H:%M:%S +0800')
     
     return new_items_count
 
@@ -218,7 +221,7 @@ def update_metadata(metadata, feed_info):
             metadata['feeds'] = []
         metadata['feeds'].append(feed_info)
     
-    metadata['last_run'] = datetime.utcnow().isoformat() + 'Z'
+    metadata['last_run'] = datetime.now(HK_TZ).isoformat()
 
 
 def main():
@@ -285,7 +288,7 @@ def main():
             'accumulated_url': f'https://tommykhs.github.io/FBeed/feeds/{slug}.xml',
             'description': feed_description,
             'link': feed_link,
-            'last_updated': datetime.utcnow().isoformat() + 'Z',
+            'last_updated': datetime.now(HK_TZ).isoformat(),
             'status': 'success',
             'total_posts': len(existing_guids),
             'new_posts_this_run': new_items_count
