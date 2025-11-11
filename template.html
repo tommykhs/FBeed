@@ -45,12 +45,13 @@
                             <a href="{{ feed.fetchrss_url }}" target="_blank">{{ feed.title }}</a>
                         </td>
                         <td>
-                            <a href="{{ feed.accumulated_url }}" target="_blank" class="btn-rss" onclick="copyToClipboard('{{ feed.accumulated_url }}', event)">
-                                View
+                            <a href="{{ feed.accumulated_url }}" target="_blank" class="btn-rss" onclick="copyToClipboard('{{ feed.accumulated_url }}', event)" title="Copy RSS URL">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg>
                             </a>
                         </td>
                         <td class="time-cell">
-                            {{ feed.last_updated }}
+                            <div class="date-line">{{ feed.last_updated.split(' ')[0] }}</div>
+                            <div class="time-line">{{ feed.last_updated.split(' ')[1] }} {{ feed.last_updated.split(' ')[2] }}</div>
                         </td>
                         <td class="posts-count">{{ feed.total_posts }}</td>
                     </tr>
@@ -60,7 +61,7 @@
         </div>
         
         <footer>
-            <p>Updates every 3 minutes</p>
+            <p>Updates every 30 minutes</p>
             <p>Last Update: {{ last_run }}</p>
         </footer>
     </div>
@@ -80,6 +81,12 @@
         }
         
         let sortDirection = {};
+        
+        // Auto-sort by Updated column (descending) on page load
+        window.addEventListener('DOMContentLoaded', function() {
+            sortDirection[2] = 'asc'; // Set to asc so first click makes it desc
+            sortTable(2); // Sort by Updated column
+        });
         
         function sortTable(columnIndex) {
             const table = document.getElementById('feedTable');
