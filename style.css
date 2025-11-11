@@ -276,12 +276,12 @@ footer {
     
     .feed-table th:first-child,
     .feed-table td:first-child {
-        width: 65%;
+        width: 58%;
     }
     
     .feed-table th:nth-child(2),
     .feed-table td:nth-child(2) {
-        width: 35%;
+        width: 42%;
     }
     
     .btn-copy {
