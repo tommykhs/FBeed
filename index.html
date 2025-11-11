@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FBeed Dashboard - Facebook Feed Accumulator</title>
+    <meta name="description" content="FBeed Dashboard - Automated Facebook feed accumulator with RSS aggregation">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📋 FBeed Dashboard</h1>
+            <p class="subtitle">Facebook Feed Accumulator</p>
+            <p class="description">Auto-fetching and accumulating Facebook posts every 15 minutes</p>
+        </header>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-value">3</div>
+                <div class="stat-label">Active Feeds</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">15</div>
+                <div class="stat-label">Total Posts</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">11/11/2025 04:02 PM HKT</div>
+                <div class="stat-label">Last Update (HK Time)</div>
+            </div>
+        </div>
+        
+        <div class="table-container">
+            <table class="feed-table">
+                <thead>
+                    <tr>
+                        <th>Feed Name</th>
+                        <th>FetchRSS Source</th>
+                        <th>Accumulated Feed</th>
+                        <th>Last Updated</th>
+                        <th>Posts</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td class="feed-title">
+                            <div class="feed-name">Fomo研究院 on Facebook</div>
+                            
+                            <div class="feed-desc">KP | Private Banking & Investment
+​
+💡 多年機構投資人的市場視角
+✍🏻 每週深度分析在 Substack
+⚡️ 即時市場快訊在 Telegram
+👇🏻 所有連結／獨...</div>
+                            
+                        </td>
+                        <td>
+                            <a href="https://fetchrss.com/feed/aRLdipyG1mESaRLieMNwf_9T.rss" target="_blank" class="btn-link">
+                                Source →
+                            </a>
+                        </td>
+                        <td>
+                            <button class="btn-copy" onclick="copyToClipboard('https://tommykhs.github.io/FBeed/feeds/fomo研究院-on-facebook.xml')">
+                                📋 Copy RSS
+                            </button>
+                        </td>
+                        <td class="time-cell">
+                            <div class="relative-time">10 sec ago</div>
+                            <div class="absolute-time">11/11/2025 04:02 PM HKT</div>
+                        </td>
+                        <td class="posts-count">5</td>
+                        <td class="status-cell">
+                            <span class="status-icon">✅</span>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="feed-title">
+                            <div class="feed-name">張維中。東京模樣 on Facebook</div>
+                            
+                            <div class="feed-desc">東京模樣是一種生活態度，東京模樣說的不只是東京。  
+
+作家張維中的臉書專頁
+_
+★不會以私人帳號名義私下加好友，請慎防詐騙帳號，收到幫忙檢舉！</div>
+                            
+                        </td>
+                        <td>
+                            <a href="https://fetchrss.com/feed/aRLdipyG1mESaRLgL3MuErUi.rss" target="_blank" class="btn-link">
+                                Source →
+                            </a>
+                        </td>
+                        <td>
+                            <button class="btn-copy" onclick="copyToClipboard('https://tommykhs.github.io/FBeed/feeds/張維中東京模樣-on-facebook.xml')">
+                                📋 Copy RSS
+                            </button>
+                        </td>
+                        <td class="time-cell">
+                            <div class="relative-time">9 sec ago</div>
+                            <div class="absolute-time">11/11/2025 04:02 PM HKT</div>
+                        </td>
+                        <td class="posts-count">5</td>
+                        <td class="status-cell">
+                            <span class="status-icon">✅</span>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="feed-title">
+                            <div class="feed-name">Johnny鉄道撮影札記 on Facebook</div>
+                            
+                            <div class="feed-desc">自詡勇悍的90後香港人，曾擔任記者，現為全職攝影師，副業日本鐵道和廣東歌。有好東西想一起玩和合作，隨時PM或電郵至：lkhjohnny@gmail.com</div>
+                            
+                        </td>
+                        <td>
+                            <a href="https://fetchrss.com/feed/aRLdipyG1mESaRLfsCyTsWIk.rss" target="_blank" class="btn-link">
+                                Source →
+                            </a>
+                        </td>
+                        <td>
+                            <button class="btn-copy" onclick="copyToClipboard('https://tommykhs.github.io/FBeed/feeds/johnny鉄道撮影札記-on-facebook.xml')">
+                                📋 Copy RSS
+                            </button>
+                        </td>
+                        <td class="time-cell">
+                            <div class="relative-time">8 sec ago</div>
+                            <div class="absolute-time">11/11/2025 04:02 PM HKT</div>
+                        </td>
+                        <td class="posts-count">5</td>
+                        <td class="status-cell">
+                            <span class="status-icon">✅</span>
+                        </td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+        
+        <footer>
+            <p>🔄 Updates automatically every 15 minutes via GitHub Actions</p>
+            <p>🚀 Powered by <a href="https://github.com/tommykhs/FBeed" target="_blank">FBeed</a> | 
+               Built with Python & GitHub Pages</p>
+        </footer>
+    </div>
+    
+    <div id="toast" class="toast">RSS URL copied to clipboard! ✓</div>
+    
+    <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                showToast();
+            }).catch(err => {
+                console.error('Failed to copy:', err);
+                alert('Failed to copy URL. Please try again.');
+            });
+        }
+        
+        function showToast() {
+            const toast = document.getElementById('toast');
+            toast.classList.add('show');
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
+    </script>
+</body>
+</html>

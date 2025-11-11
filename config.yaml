@@ -1,0 +1,7 @@
+feeds:
+  - fetchrss_url: "https://fetchrss.com/feed/aRLdipyG1mESaRLieMNwf_9T.rss"
+  - fetchrss_url: "https://fetchrss.com/feed/aRLdipyG1mESaRLgL3MuErUi.rss"
+  - fetchrss_url: "https://fetchrss.com/feed/aRLdipyG1mESaRLfsCyTsWIk.rss"
+
+settings:
+  update_interval_minutes: 15

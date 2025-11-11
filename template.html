@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FBeed Dashboard - Facebook Feed Accumulator</title>
+    <meta name="description" content="FBeed Dashboard - Automated Facebook feed accumulator with RSS aggregation">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📋 FBeed Dashboard</h1>
+            <p class="subtitle">Facebook Feed Accumulator</p>
+            <p class="description">Auto-fetching and accumulating Facebook posts every 15 minutes</p>
+        </header>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-value">{{ total_feeds }}</div>
+                <div class="stat-label">Active Feeds</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">{{ total_posts }}</div>
+                <div class="stat-label">Total Posts</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">{{ last_run }}</div>
+                <div class="stat-label">Last Update (HK Time)</div>
+            </div>
+        </div>
+        
+        <div class="table-container">
+            <table class="feed-table">
+                <thead>
+                    <tr>
+                        <th>Feed Name</th>
+                        <th>FetchRSS Source</th>
+                        <th>Accumulated Feed</th>
+                        <th>Last Updated</th>
+                        <th>Posts</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for feed in feeds %}
+                    <tr>
+                        <td class="feed-title">
+                            <div class="feed-name">{{ feed.title }}</div>
+                            {% if feed.description %}
+                            <div class="feed-desc">{{ feed.description[:100] }}{% if feed.description|length > 100 %}...{% endif %}</div>
+                            {% endif %}
+                        </td>
+                        <td>
+                            <a href="{{ feed.fetchrss_url }}" target="_blank" class="btn-link">
+                                Source →
+                            </a>
+                        </td>
+                        <td>
+                            <button class="btn-copy" onclick="copyToClipboard('{{ feed.accumulated_url }}')">
+                                📋 Copy RSS
+                            </button>
+                        </td>
+                        <td class="time-cell">
+                            <div class="relative-time">{{ feed.relative_time }}</div>
+                            <div class="absolute-time">{{ feed.last_updated }}</div>
+                        </td>
+                        <td class="posts-count">{{ feed.total_posts }}</td>
+                        <td class="status-cell">
+                            <span class="status-icon">{{ feed.status_icon }}</span>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        
+        <footer>
+            <p>🔄 Updates automatically every 15 minutes via GitHub Actions</p>
+            <p>🚀 Powered by <a href="https://github.com/tommykhs/FBeed" target="_blank">FBeed</a> | 
+               Built with Python & GitHub Pages</p>
+        </footer>
+    </div>
+    
+    <div id="toast" class="toast">RSS URL copied to clipboard! ✓</div>
+    
+    <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                showToast();
+            }).catch(err => {
+                console.error('Failed to copy:', err);
+                alert('Failed to copy URL. Please try again.');
+            });
+        }
+        
+        function showToast() {
+            const toast = document.getElementById('toast');
+            toast.classList.add('show');
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
+    </script>
+</body>
+</html>
