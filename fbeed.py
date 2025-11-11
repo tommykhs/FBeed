@@ -74,12 +74,14 @@ def load_existing_feed(feed_path):
 
 def create_new_feed(feed_data):
     """Create a new RSS feed structure"""
-    rss = ET.Element('rss', {
-        'version': '2.0',
-        'xmlns:media': 'http://search.yahoo.com/mrss/',
-        'xmlns:atom': 'http://www.w3.org/2005/Atom',
-        'xmlns:dc': 'http://purl.org/dc/elements/1.1/'
-    })
+    # Register namespace prefixes - ElementTree will add xmlns when needed
+    ET.register_namespace('dc', 'http://purl.org/dc/elements/1.1/')
+    ET.register_namespace('media', 'http://search.yahoo.com/mrss/')
+    ET.register_namespace('atom', 'http://www.w3.org/2005/Atom')
+    
+    # Create RSS element with ONLY version - no manual xmlns
+    rss = ET.Element('rss')
+    rss.set('version', '2.0')
     
     channel = ET.SubElement(rss, 'channel')
     
