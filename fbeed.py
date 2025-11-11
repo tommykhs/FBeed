@@ -175,10 +175,17 @@ def add_items_to_feed(tree, feed_data, existing_guids):
 
 
 def prettify_xml(elem):
-    """Return a pretty-printed XML string"""
+    """Return a pretty-printed XML string with XSL stylesheet reference"""
     rough_string = ET.tostring(elem, encoding='utf-8', xml_declaration=True)
-    # Just return the string without minidom pretty printing to avoid namespace issues
-    return rough_string.decode('utf-8')
+    xml_str = rough_string.decode('utf-8')
+    
+    # Add XSL stylesheet processing instruction after XML declaration
+    xml_lines = xml_str.split('\n')
+    if xml_lines[0].startswith('<?xml'):
+        xml_lines.insert(1, '<?xml-stylesheet type="text/xsl" href="/FBeed/feed-style.xsl"?>')
+        xml_str = '\n'.join(xml_lines)
+    
+    return xml_str
 
 
 def save_feed(tree, feed_path):

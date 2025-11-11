@@ -22,10 +22,6 @@
                 <div class="stat-value">{{ total_posts }}</div>
                 <div class="stat-label">Posts</div>
             </div>
-            <div class="stat-card">
-                <div class="stat-value">{{ last_run }}</div>
-                <div class="stat-label">Last Update</div>
-            </div>
         </div>
         
         <div class="table-container">
@@ -61,7 +57,7 @@
         </div>
         
         <footer>
-            <p>Updates every 30 minutes</p>
+            <p>Feed: {{ total_feeds }} | Post: {{ total_posts }} | Frequent: 30 min</p>
             <p>Last Update: {{ last_run }}</p>
         </footer>
     </div>
