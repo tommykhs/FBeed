@@ -29,13 +29,13 @@
         </div>
         
         <div class="table-container">
-            <table class="feed-table">
+            <table class="feed-table" id="feedTable">
                 <thead>
                     <tr>
                         <th>Feed Name</th>
                         <th>RSS</th>
-                        <th>Updated</th>
-                        <th>Posts</th>
+                        <th onclick="sortTable(2)" style="cursor: pointer;">Updated ⇅</th>
+                        <th onclick="sortTable(3)" style="cursor: pointer;">Posts ⇅</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -77,6 +77,44 @@
                 console.error('Copy failed:', err);
             });
             // Don't prevent default - let the link open
+        }
+        
+        let sortDirection = {};
+        
+        function sortTable(columnIndex) {
+            const table = document.getElementById('feedTable');
+            const tbody = table.querySelector('tbody');
+            const rows = Array.from(tbody.querySelectorAll('tr'));
+            
+            // Toggle sort direction
+            sortDirection[columnIndex] = sortDirection[columnIndex] === 'asc' ? 'desc' : 'asc';
+            const direction = sortDirection[columnIndex];
+            
+            rows.sort((a, b) => {
+                let aVal = a.cells[columnIndex].textContent.trim();
+                let bVal = b.cells[columnIndex].textContent.trim();
+                
+                // For Posts column (numeric)
+                if (columnIndex === 3) {
+                    aVal = parseInt(aVal) || 0;
+                    bVal = parseInt(bVal) || 0;
+                    return direction === 'asc' ? aVal - bVal : bVal - aVal;
+                }
+                
+                // For Updated column (date string in yy/mm/dd format)
+                if (columnIndex === 2) {
+                    // Convert yy/mm/dd HH:MM AM/PM to sortable format
+                    const aDate = new Date(aVal.replace(/(\d{2})\/(\d{2})\/(\d{2})/, '20$3-$1-$2'));
+                    const bDate = new Date(bVal.replace(/(\d{2})\/(\d{2})\/(\d{2})/, '20$3-$1-$2'));
+                    return direction === 'asc' ? aDate - bDate : bDate - aDate;
+                }
+                
+                // Default string comparison
+                return direction === 'asc' ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
+            });
+            
+            // Re-append sorted rows
+            rows.forEach(row => tbody.appendChild(row));
         }
     </script>
 </body>

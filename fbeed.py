@@ -91,6 +91,12 @@ def create_new_feed(feed_data):
     ET.SubElement(channel, 'link').text = feed_data.feed.get('link', '')
     ET.SubElement(channel, 'pubDate').text = datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S +0000')
     
+    # Add Facebook icon as feed image
+    image = ET.SubElement(channel, 'image')
+    ET.SubElement(image, 'url').text = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCc+PHBhdGggZmlsbD0nIzE4NzdmMicgZD0nTTI0IDEyLjA3M2MwLTYuNjI3LTUuMzczLTEyLTEyLTEycy0xMiA1LjM3My0xMiAxMmMwIDUuOTkgNC4zODggMTAuOTU0IDEwLjEyNSAxMS44NTR2LTguMzg1SDcuMDc4di0zLjQ3aDMuMDQ3VjkuNDNjMC0zLjAwNyAxLjc5Mi00LjY2OSA0LjUzMy00LjY2OSAxLjMxMiAwIDIuNjg2LjIzNSAyLjY4Ni4yMzV2Mi45NTNIMTUuODNjLTEuNDkxIDAtMS45NTYuOTI1LTEuOTU2IDEuODc0djIuMjVoMy4zMjhsLS41MzIgMy40N2gtMi43OTZ2OC4zODVDMTkuNjEyIDIzLjAyNyAyNCAxOC4wNjIgMjQgMTIuMDczeicvPjwvc3ZnPg=='
+    ET.SubElement(image, 'title').text = feed_data.feed.get('title', 'Untitled Feed')
+    ET.SubElement(image, 'link').text = feed_data.feed.get('link', '')
+    
     # Add generator
     ET.SubElement(channel, 'generator').text = 'FBeed - Facebook Feed Accumulator'
     

@@ -35,8 +35,8 @@ def format_hk_time(utc_time_str):
         hk_tz = pytz.timezone('Asia/Hong_Kong')
         hk_time = utc_time.astimezone(hk_tz)
         
-        # Format as readable string (no HKT suffix)
-        return hk_time.strftime('%m/%d/%Y %I:%M %p')
+        # Format as yy/mm/dd HH:MM AM/PM
+        return hk_time.strftime('%y/%m/%d %I:%M %p')
     except Exception as e:
         print(f"Error formatting time {utc_time_str}: {e}")
         return utc_time_str
