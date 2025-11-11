@@ -29,21 +29,18 @@
                 <thead>
                     <tr>
                         <th>Feed Name</th>
-                        <th>RSS</th>
-                        <th onclick="sortTable(2)" style="cursor: pointer;">Updated ⇅</th>
-                        <th onclick="sortTable(3)" style="cursor: pointer;">Posts ⇅</th>
+                        <th onclick="sortTable(1)" style="cursor: pointer;">Updated ⇅</th>
+                        <th onclick="sortTable(2)" style="cursor: pointer;">Posts ⇅</th>
                     </tr>
                 </thead>
                 <tbody>
                     {% for feed in feeds %}
                     <tr>
                         <td class="feed-title">
-                            <a href="{{ feed.fetchrss_url }}" target="_blank">{{ feed.title }}</a>
-                        </td>
-                        <td>
-                            <a href="{{ feed.accumulated_url }}" target="_blank" class="btn-rss" onclick="copyToClipboard('{{ feed.accumulated_url }}', event)" title="Copy RSS URL">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg>
+                            <a href="{{ feed.accumulated_url }}" target="_blank" class="rss-icon-inline" onclick="copyToClipboard('{{ feed.accumulated_url }}', event)" title="Copy RSS URL">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg>
                             </a>
+                            <a href="{{ feed.fetchrss_url }}" target="_blank" class="feed-name">{{ feed.title }}</a>
                         </td>
                         <td class="time-cell">
                             <div class="date-line">{{ feed.last_updated.split(' ')[0] }}</div>
@@ -80,8 +77,8 @@
         
         // Auto-sort by Updated column (descending) on page load
         window.addEventListener('DOMContentLoaded', function() {
-            sortDirection[2] = 'asc'; // Set to asc so first click makes it desc
-            sortTable(2); // Sort by Updated column
+            sortDirection[1] = 'asc'; // Set to asc so first click makes it desc
+            sortTable(1); // Sort by Updated column
         });
         
         function sortTable(columnIndex) {
@@ -98,14 +95,14 @@
                 let bVal = b.cells[columnIndex].textContent.trim();
                 
                 // For Posts column (numeric)
-                if (columnIndex === 3) {
+                if (columnIndex === 2) {
                     aVal = parseInt(aVal) || 0;
                     bVal = parseInt(bVal) || 0;
                     return direction === 'asc' ? aVal - bVal : bVal - aVal;
                 }
                 
                 // For Updated column (date string in yy/mm/dd format)
-                if (columnIndex === 2) {
+                if (columnIndex === 1) {
                     // Convert yy/mm/dd HH:MM AM/PM to sortable format
                     // Format: 25/11/09 = yy/mm/dd, convert to 2025-11-09
                     const aDate = new Date(aVal.replace(/(\d{2})\/(\d{2})\/(\d{2})/, '20$1-$2-$3'));
