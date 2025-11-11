@@ -60,7 +60,7 @@
         </div>
         
         <footer>
-            <p>Updates every 15 minutes</p>
+            <p>Updates every 3 minutes</p>
             <p>Last Update: {{ last_run }}</p>
         </footer>
     </div>
@@ -104,8 +104,9 @@
                 // For Updated column (date string in yy/mm/dd format)
                 if (columnIndex === 2) {
                     // Convert yy/mm/dd HH:MM AM/PM to sortable format
-                    const aDate = new Date(aVal.replace(/(\d{2})\/(\d{2})\/(\d{2})/, '20$3-$1-$2'));
-                    const bDate = new Date(bVal.replace(/(\d{2})\/(\d{2})\/(\d{2})/, '20$3-$1-$2'));
+                    // Format: 25/11/09 = yy/mm/dd, convert to 2025-11-09
+                    const aDate = new Date(aVal.replace(/(\d{2})\/(\d{2})\/(\d{2})/, '20$1-$2-$3'));
+                    const bDate = new Date(bVal.replace(/(\d{2})\/(\d{2})\/(\d{2})/, '20$1-$2-$3'));
                     return direction === 'asc' ? aDate - bDate : bDate - aDate;
                 }
                 
