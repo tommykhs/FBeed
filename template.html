@@ -3,30 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FBeed Dashboard - Facebook Feed Accumulator</title>
-    <meta name="description" content="FBeed Dashboard - Automated Facebook feed accumulator with RSS aggregation">
+    <title>FBeed Dashboard</title>
+    <meta name="description" content="Facebook Feed Accumulator">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path fill='%231877f2' d='M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z'/></svg>">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>📋 FBeed Dashboard</h1>
+            <h1>📋 FBeed</h1>
             <p class="subtitle">Facebook Feed Accumulator</p>
-            <p class="description">Auto-fetching and accumulating Facebook posts every 15 minutes</p>
         </header>
         
         <div class="stats">
             <div class="stat-card">
                 <div class="stat-value">{{ total_feeds }}</div>
-                <div class="stat-label">Active Feeds</div>
+                <div class="stat-label">Feeds</div>
             </div>
             <div class="stat-card">
                 <div class="stat-value">{{ total_posts }}</div>
-                <div class="stat-label">Total Posts</div>
+                <div class="stat-label">Posts</div>
             </div>
             <div class="stat-card">
                 <div class="stat-value">{{ last_run }}</div>
-                <div class="stat-label">Last Update (HK Time)</div>
+                <div class="stat-label">Last Update</div>
             </div>
         </div>
         
@@ -35,40 +35,26 @@
                 <thead>
                     <tr>
                         <th>Feed Name</th>
-                        <th>FetchRSS Source</th>
-                        <th>Accumulated Feed</th>
-                        <th>Last Updated</th>
+                        <th>RSS</th>
+                        <th>Updated</th>
                         <th>Posts</th>
-                        <th>Status</th>
                     </tr>
                 </thead>
                 <tbody>
                     {% for feed in feeds %}
                     <tr>
-                        <td class="feed-title">
-                            <div class="feed-name">{{ feed.title }}</div>
-                            {% if feed.description %}
-                            <div class="feed-desc">{{ feed.description[:100] }}{% if feed.description|length > 100 %}...{% endif %}</div>
-                            {% endif %}
-                        </td>
-                        <td>
-                            <a href="{{ feed.fetchrss_url }}" target="_blank" class="btn-link">
-                                Source →
-                            </a>
+                        <td class="feed-title" title="{{ feed.description }}">
+                            {{ feed.title }}
                         </td>
                         <td>
                             <button class="btn-copy" onclick="copyToClipboard('{{ feed.accumulated_url }}')">
-                                📋 Copy RSS
+                                Copy
                             </button>
                         </td>
                         <td class="time-cell">
-                            <div class="relative-time">{{ feed.relative_time }}</div>
-                            <div class="absolute-time">{{ feed.last_updated }}</div>
+                            {{ feed.last_updated }}
                         </td>
                         <td class="posts-count">{{ feed.total_posts }}</td>
-                        <td class="status-cell">
-                            <span class="status-icon">{{ feed.status_icon }}</span>
-                        </td>
                     </tr>
                     {% endfor %}
                 </tbody>
@@ -76,30 +62,21 @@
         </div>
         
         <footer>
-            <p>🔄 Updates automatically every 15 minutes via GitHub Actions</p>
-            <p>🚀 Powered by <a href="https://github.com/tommykhs/FBeed" target="_blank">FBeed</a> | 
-               Built with Python & GitHub Pages</p>
+            <p>Updates every 15 minutes</p>
         </footer>
     </div>
     
-    <div id="toast" class="toast">RSS URL copied to clipboard! ✓</div>
+    <div id="toast" class="toast">✓ Copied</div>
     
     <script>
         function copyToClipboard(text) {
             navigator.clipboard.writeText(text).then(() => {
-                showToast();
+                const toast = document.getElementById('toast');
+                toast.classList.add('show');
+                setTimeout(() => toast.classList.remove('show'), 2000);
             }).catch(err => {
-                console.error('Failed to copy:', err);
-                alert('Failed to copy URL. Please try again.');
+                alert('Failed to copy');
             });
-        }
-        
-        function showToast() {
-            const toast = document.getElementById('toast');
-            toast.classList.add('show');
-            setTimeout(() => {
-                toast.classList.remove('show');
-            }, 3000);
         }
     </script>
 </body>

@@ -34,8 +34,8 @@ def format_hk_time(utc_time_str):
         hk_tz = pytz.timezone('Asia/Hong_Kong')
         hk_time = utc_time.astimezone(hk_tz)
         
-        # Format as readable string
-        return hk_time.strftime('%m/%d/%Y %I:%M %p HKT')
+        # Format as readable string (no HKT suffix)
+        return hk_time.strftime('%m/%d/%Y %I:%M %p')
     except Exception as e:
         print(f"Error formatting time {utc_time_str}: {e}")
         return utc_time_str
@@ -85,12 +85,15 @@ def generate_dashboard():
     # Process feeds data for template
     feeds_data = []
     for feed in metadata.get('feeds', []):
+        # Crop " on Facebook" from title
+        title = feed.get('title', 'Untitled')
+        title = title.replace(' on Facebook', '')
+        
         feeds_data.append({
-            'title': feed.get('title', 'Untitled'),
+            'title': title,
             'fetchrss_url': feed.get('fetchrss_url', ''),
             'accumulated_url': feed.get('accumulated_url', ''),
             'last_updated': format_hk_time(feed.get('last_updated')),
-            'relative_time': get_relative_time(feed.get('last_updated')),
             'total_posts': feed.get('total_posts', 0),
             'new_posts': feed.get('new_posts_this_run', 0),
             'status': feed.get('status', 'unknown'),
