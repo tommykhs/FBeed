@@ -106,6 +106,46 @@ def create_new_feed(feed_data):
     return ET.ElementTree(rss)
 
 
+def parse_rfc822_date(date_str):
+    """Parse RFC 822 date string to datetime for sorting"""
+    try:
+        from email.utils import parsedate_to_datetime
+        return parsedate_to_datetime(date_str)
+    except Exception:
+        # If parsing fails, return a very old date so it goes to the end
+        return datetime(1970, 1, 1, tzinfo=timezone.utc)
+
+
+def sort_feed_items(channel):
+    """Sort all items in the feed by pubDate (newest first)"""
+    # Get all item elements
+    items = channel.findall('item')
+    
+    if not items:
+        return
+    
+    # Extract items with their pubDate for sorting
+    items_with_dates = []
+    for item in items:
+        pubdate_elem = item.find('pubDate')
+        if pubdate_elem is not None and pubdate_elem.text:
+            pub_date = parse_rfc822_date(pubdate_elem.text)
+        else:
+            pub_date = datetime(1970, 1, 1, tzinfo=timezone.utc)
+        items_with_dates.append((pub_date, item))
+    
+    # Sort by date (newest first)
+    items_with_dates.sort(key=lambda x: x[0], reverse=True)
+    
+    # Remove all items from channel
+    for item in items:
+        channel.remove(item)
+    
+    # Re-add items in sorted order
+    for _, item in items_with_dates:
+        channel.append(item)
+
+
 def add_items_to_feed(tree, feed_data, existing_guids):
     """Add new items from feed_data to the XML tree"""
     root = tree.getroot()
@@ -164,10 +204,13 @@ def add_items_to_feed(tree, feed_data, existing_guids):
         guid_elem.set('isPermaLink', 'false')
         guid_elem.text = guid
         
-        # Insert at the beginning (newest first)
-        channel.insert(0, item)
+        # Add to channel (will be sorted later)
+        channel.append(item)
         existing_guids.add(guid)
         new_items_count += 1
+    
+    # Sort all items by pubDate (newest first)
+    sort_feed_items(channel)
     
     # Update channel pubDate
     pubdate_elem = channel.find('pubDate')
