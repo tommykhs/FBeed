@@ -9,6 +9,7 @@ import os
 from datetime import datetime
 from jinja2 import Template
 import pytz
+from xml.etree import ElementTree as ET
 
 
 def load_metadata():
@@ -75,6 +76,38 @@ def get_status_icon(status):
     return status_map.get(status, '❓')
 
 
+def get_latest_post_time(feed_slug):
+    """Get the latest post pubDate from the feed XML"""
+    feed_path = f'feeds/{feed_slug}.xml'
+    if not os.path.exists(feed_path):
+        return None
+    
+    try:
+        tree = ET.parse(feed_path)
+        root = tree.getroot()
+        channel = root.find('channel')
+        
+        if channel is None:
+            return None
+        
+        # Get first item (newest post)
+        item = channel.find('item')
+        if item is None:
+            return None
+        
+        pubdate = item.find('pubDate')
+        if pubdate is not None and pubdate.text:
+            # Parse RFC 2822 date format
+            from email.utils import parsedate_to_datetime
+            dt = parsedate_to_datetime(pubdate.text)
+            return dt.isoformat()
+        
+        return None
+    except Exception as e:
+        print(f"Error reading latest post time from {feed_path}: {e}")
+        return None
+
+
 def generate_dashboard():
     """Generate the HTML dashboard"""
     print("FBeed - Generating dashboard...")
@@ -89,11 +122,15 @@ def generate_dashboard():
         title = feed.get('title', 'Untitled')
         title = title.replace(' on Facebook', '')
         
+        # Get latest post time from XML feed
+        slug = feed.get('slug', '')
+        latest_post_time = get_latest_post_time(slug)
+        
         feeds_data.append({
             'title': title,
             'fetchrss_url': feed.get('fetchrss_url', ''),
             'accumulated_url': feed.get('accumulated_url', ''),
-            'last_updated': format_hk_time(feed.get('last_updated')),
+            'last_updated': format_hk_time(latest_post_time) if latest_post_time else 'Never',
             'total_posts': feed.get('total_posts', 0),
             'new_posts': feed.get('new_posts_this_run', 0),
             'status': feed.get('status', 'unknown'),
