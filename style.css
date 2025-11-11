@@ -92,6 +92,7 @@ header h1 {
     width: 100%;
     border-collapse: collapse;
     min-width: 600px;
+    table-layout: auto;
 }
 
 .feed-table thead {
@@ -262,13 +263,25 @@ footer {
     }
     
     .feed-table {
-        min-width: 500px;
+        min-width: 100%;
+        table-layout: fixed;
     }
     
     .feed-table th,
     .feed-table td {
         padding: 10px 8px;
         font-size: 0.8125rem;
+        word-wrap: break-word;
+    }
+    
+    .feed-table th:first-child,
+    .feed-table td:first-child {
+        width: 65%;
+    }
+    
+    .feed-table th:nth-child(2),
+    .feed-table td:nth-child(2) {
+        width: 35%;
     }
     
     .btn-copy {
@@ -289,19 +302,38 @@ footer {
         font-size: 1.125rem;
     }
     
-    .stats {
-        grid-template-columns: 1fr 1fr;
+    .feed-table th,
+    .feed-table td {
+        padding: 8px 4px;
+        font-size: 0.75rem;
     }
     
-    .stat-card {
-        padding: 6px 4px;
+    .feed-title {
+        gap: 6px;
     }
     
-    .stat-value {
-        font-size: 0.9rem;
+    .rss-icon-inline {
+        padding: 3px;
     }
     
-    .stat-label {
-        font-size: 0.6rem;
+    .rss-icon-inline svg {
+        width: 14px;
+        height: 14px;
+    }
+    
+    .feed-name {
+        font-size: 0.8125rem;
+    }
+    
+    .post-count {
+        font-size: 0.75rem;
+    }
+    
+    .time-cell .date-line {
+        font-size: 0.7rem;
+    }
+    
+    .time-cell .time-line {
+        font-size: 0.65rem;
     }
 }
