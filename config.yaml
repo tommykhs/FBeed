@@ -11,6 +11,7 @@ feeds:
   - fetchrss_url: "https://fetchrss.com/feed/aRRBFXKPZuqiaRRzfxyK9V7S.rss"
   - fetchrss_url: "https://fetchrss.com/feed/aRRBRNbusmVyaRRz2fr2FTYy.rss"
   - fetchrss_url: "https://fetchrss.com/feed/aRRBWHKPZuqjaRR1T0VKXnqS.rss"
+  - fetchrss_url: "https://fetchrss.com/feed/aRRBjSKpIqXyaRR3_rFxE9Zi.rss"
 
 settings:
   update_interval_minutes: 15
