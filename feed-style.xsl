@@ -163,6 +163,58 @@
                     }
                 }
             </style>
+            <script>
+                // Convert UTC dates to HK timezone (UTC+8)
+                function convertToHKTime() {
+                    const dateElements = document.querySelectorAll('.item-date');
+                    dateElements.forEach(element => {
+                        const dateText = element.textContent.trim();
+                        // Extract date string after emoji
+                        const dateString = dateText.replace('📅 ', '');
+                        
+                        try {
+                            // Parse the RFC 822 date format
+                            const date = new Date(dateString);
+                            
+                            if (!isNaN(date.getTime())) {
+                                // Convert to HK timezone (UTC+8)
+                                const options = {
+                                    timeZone: 'Asia/Hong_Kong',
+                                    weekday: 'short',
+                                    year: 'numeric',
+                                    month: 'short',
+                                    day: '2-digit',
+                                    hour: '2-digit',
+                                    minute: '2-digit',
+                                    second: '2-digit',
+                                    hour12: false
+                                };
+                                
+                                const formatter = new Intl.DateTimeFormat('en-US', options);
+                                const parts = formatter.formatToParts(date);
+                                
+                                // Build formatted string
+                                const formatted = `${parts.find(p => p.type === 'weekday').value}, ` +
+                                    `${parts.find(p => p.type === 'day').value} ` +
+                                    `${parts.find(p => p.type === 'month').value} ` +
+                                    `${parts.find(p => p.type === 'year').value} ` +
+                                    `${parts.find(p => p.type === 'hour').value}:` +
+                                    `${parts.find(p => p.type === 'minute').value}:` +
+                                    `${parts.find(p => p.type === 'second').value} +0800`;
+                                
+                                element.textContent = `📅 ${formatted}`;
+                                element.classList.add('converted');
+                            }
+                        } catch (e) {
+                            // Keep original if parsing fails
+                            console.error('Date parsing error:', e);
+                        }
+                    });
+                }
+                
+                // Run conversion when DOM is loaded
+                document.addEventListener('DOMContentLoaded', convertToHKTime);
+            </script>
         </head>
         <body>
             <div class="container">
