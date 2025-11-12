@@ -49,18 +49,6 @@
       "new_posts_this_run": 0
     },
     {
-      "title": "on.cc 東網／東方日報 on Facebook",
-      "slug": "oncc-東網東方日報-on-facebook",
-      "fetchrss_url": "https://fetchrss.com/feed/aRLdipyG1mESaRL_iZOkfGYE.rss",
-      "accumulated_url": "https://tommykhs.github.io/FBeed/feeds/oncc-東網東方日報-on-facebook.xml",
-      "description": "東方傳媒機構旗艦網站\n爆料熱線：+852 3600 3600\nWhatsApp：+852 6500 6500\nWeChat ID：onccireport\nLine：+852 6500 6500",
-      "link": "https://www.facebook.com/onccnews",
-      "last_updated": "2025-11-12T19:41:19.083153+08:00",
-      "status": "success",
-      "total_posts": 11,
-      "new_posts_this_run": 0
-    },
-    {
       "title": "FinGuider 美股資訊網 on Facebook",
       "slug": "finguider-美股資訊網-on-facebook",
       "fetchrss_url": "https://fetchrss.com/feed/aRLdipyG1mESaRReMTtVnX9z.rss",
