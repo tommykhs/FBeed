@@ -12,7 +12,6 @@
             <meta charset="UTF-8"/>
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
             <title><xsl:value-of select="rss/channel/title"/> - RSS Feed</title>
-            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
             <style>
                 * {
                     margin: 0;
@@ -165,7 +164,6 @@
                 }
             </style>
             <script>
-            <![CDATA[
                 // Convert UTC dates to HK timezone (UTC+8)
                 function convertToHKTime() {
                     const dateElements = document.querySelectorAll('.item-date');
@@ -214,101 +212,8 @@
                     });
                 }
                 
-                // Pagination
-                const ITEMS_PER_PAGE = 20;
-                let currentPage = 1;
-                let totalItems = 0;
-                
-                function initPagination() {
-                    const items = document.querySelectorAll('.item');
-                    totalItems = items.length;
-                    
-                    if (totalItems <= ITEMS_PER_PAGE) {
-                        return; // No pagination needed
-                    }
-                    
-                    showPage(1);
-                    renderPagination();
-                }
-                
-                function showPage(page) {
-                    currentPage = page;
-                    const items = document.querySelectorAll('.item');
-                    const start = (page - 1) * ITEMS_PER_PAGE;
-                    const end = start + ITEMS_PER_PAGE;
-                    
-                    items.forEach((item, index) => {
-                        if (index >= start && index < end) {
-                            item.style.display = 'block';
-                        } else {
-                            item.style.display = 'none';
-                        }
-                    });
-                    
-                    // Scroll to top
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                    renderPagination();
-                }
-                
-                function renderPagination() {
-                    const totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE);
-                    const paginationContainer = document.getElementById('pagination');
-                    
-                    if (!paginationContainer || totalPages <= 1) {
-                        return;
-                    }
-                    
-                    let html = '<ul class="pagination justify-content-center">';
-                    
-                    // Previous button
-                    html += `<li class="page-item ${currentPage === 1 ? 'disabled' : ''}">`;
-                    html += `<a class="page-link" href="#" onclick="showPage(${currentPage - 1}); return false;">Previous</a>`;
-                    html += '</li>';
-                    
-                    // Page numbers
-                    const maxVisiblePages = 5;
-                    let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
-                    let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
-                    
-                    if (endPage - startPage < maxVisiblePages - 1) {
-                        startPage = Math.max(1, endPage - maxVisiblePages + 1);
-                    }
-                    
-                    if (startPage > 1) {
-                        html += `<li class="page-item"><a class="page-link" href="#" onclick="showPage(1); return false;">1</a></li>`;
-                        if (startPage > 2) {
-                            html += '<li class="page-item disabled"><span class="page-link">...</span></li>';
-                        }
-                    }
-                    
-                    for (let i = startPage; i <= endPage; i++) {
-                        html += `<li class="page-item ${i === currentPage ? 'active' : ''}">`;
-                        html += `<a class="page-link" href="#" onclick="showPage(${i}); return false;">${i}</a>`;
-                        html += '</li>';
-                    }
-                    
-                    if (endPage < totalPages) {
-                        if (endPage < totalPages - 1) {
-                            html += '<li class="page-item disabled"><span class="page-link">...</span></li>';
-                        }
-                        html += `<li class="page-item"><a class="page-link" href="#" onclick="showPage(${totalPages}); return false;">${totalPages}</a></li>`;
-                    }
-                    
-                    // Next button
-                    html += `<li class="page-item ${currentPage === totalPages ? 'disabled' : ''}">`;
-                    html += `<a class="page-link" href="#" onclick="showPage(${currentPage + 1}); return false;">Next</a>`;
-                    html += '</li>';
-                    
-                    html += '</ul>';
-                    paginationContainer.innerHTML = html;
-                }
-                
-                // Run on DOM load
-                document.addEventListener('DOMContentLoaded', function() {
-                    convertToHKTime();
-                    initPagination();
-                });
-            ]]>
+                // Run conversion when DOM is loaded
+                document.addEventListener('DOMContentLoaded', convertToHKTime);
             </script>
         </head>
         <body>
@@ -349,8 +254,6 @@
                         </div>
                     </xsl:for-each>
                 </div>
-                
-                <div id="pagination" class="my-4"></div>
                 
                 <div class="footer">
                     <p>Generated by FBeed - Facebook Feed Accumulator</p>
