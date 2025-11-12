@@ -165,6 +165,7 @@
                 }
             </style>
             <script>
+            <![CDATA[
                 // Convert UTC dates to HK timezone (UTC+8)
                 function convertToHKTime() {
                     const dateElements = document.querySelectorAll('.item-date');
@@ -307,6 +308,7 @@
                     convertToHKTime();
                     initPagination();
                 });
+            ]]>
             </script>
         </head>
         <body>
