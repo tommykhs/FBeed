@@ -168,6 +168,7 @@ header h1 {
     font-weight: 500;
     overflow-wrap: break-word;
     flex: 1;
+    min-width: 0;
 }
 
 .feed-name:hover {

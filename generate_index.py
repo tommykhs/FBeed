@@ -118,12 +118,20 @@ def generate_dashboard():
     # Process feeds data for template
     feeds_data = []
     for feed in metadata.get('feeds', []):
+        # Get slug and check if XML file exists
+        slug = feed.get('slug', '')
+        feed_xml_path = f'feeds/{slug}.xml'
+        
+        # Skip if XML file doesn't exist
+        if not os.path.exists(feed_xml_path):
+            print(f"⚠️  Skipping {slug} - XML file not found")
+            continue
+        
         # Crop " on Facebook" from title
         title = feed.get('title', 'Untitled')
         title = title.replace(' on Facebook', '')
         
         # Get latest post time from XML feed
-        slug = feed.get('slug', '')
         latest_post_time = get_latest_post_time(slug)
         
         feeds_data.append({
