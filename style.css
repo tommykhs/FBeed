@@ -167,6 +167,7 @@ header h1 {
     text-decoration: none;
     font-weight: 500;
     overflow-wrap: break-word;
+    flex: 1;
 }
 
 .feed-name:hover {
