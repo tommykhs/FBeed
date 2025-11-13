@@ -1,9 +1,9 @@
 name: Update FBeed Feeds
 
 on:
-  # Run every 30 minutes
+  # Run every hour
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '0 * * * *'
   
   # Allow manual trigger
   workflow_dispatch:

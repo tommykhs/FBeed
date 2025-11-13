@@ -166,7 +166,6 @@ header h1 {
     color: var(--text-primary);
     text-decoration: none;
     font-weight: 500;
-    word-break: break-word;
     overflow-wrap: break-word;
 }
 
