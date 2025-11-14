@@ -18,7 +18,6 @@ feeds:
   - fetchrss_url: "https://fetchrss.com/feed/aRSDS7eNxNbiaRSDWL1M4gNE.rss"
   - fetchrss_url: "https://fetchrss.com/feed/aRSDdBYihzVjaRSDhTgWf7hi.rss"
   - fetchrss_url: "https://fetchrss.com/feed/aRSDqrh1_rrSaRSDtwA_dS3z.rss"
-  - fetchrss_url: "https://fetchrss.com/feed/aRSEBHVLTS0yaRSEFXW0uKZy.rss"
   - fetchrss_url: "https://fetchrss.com/feed/aRSEMb1M4gNFaRSEPZVvBpWC.rss"
   - fetchrss_url: "https://fetchrss.com/feed/aRSEWzh0FKvyaRSEZJWQTr5T.rss"
   - fetchrss_url: "https://fetchrss.com/feed/aRSEe5VvBpWDaRSEvlXjWJyS.rss"
@@ -41,6 +40,8 @@ feeds:
   - fetchrss_url: "https://fetchrss.com/feed/aRSKSHW0uKZ0aRSKVmKDZWmS.rss"
   - fetchrss_url: "https://fetchrss.com/feed/aRSKcEm7WoqCaRSKfkiEQXOi.rss"
   - fetchrss_url: "https://fetchrss.com/feed/aRRAhg551kOSaRViLwz0caJi.rss"
+  - fetchrss_url: "https://fetchrss.com/feed/aRSD2Q6z4R6SaRcC-Bjc1bAS.rss"
+  - fetchrss_url: "https://fetchrss.com/feed/aRSEBHVLTS0yaRcDdFKpPUdD.rss"
 
 settings:
   update_interval_minutes: 15
