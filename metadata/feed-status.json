@@ -145,18 +145,6 @@
       "new_posts_this_run": 0
     },
     {
-      "title": "Starman 資本攻略 on Facebook",
-      "slug": "starman-資本攻略-on-facebook",
-      "fetchrss_url": "https://fetchrss.com/feed/aRRAhg551kOSaRRfBozoi9si.rss",
-      "accumulated_url": "https://tommykhs.github.io/FBeed/feeds/starman-資本攻略-on-facebook.xml",
-      "description": "80後窮小子, 27歲憑專業知識投資賺取第一桶金, 30歲完成財務自由, 平均月收?",
-      "link": "https://www.facebook.com/Starmancapital",
-      "last_updated": "2025-11-12T21:27:04.963405+08:00",
-      "status": "success",
-      "total_posts": 5,
-      "new_posts_this_run": 5
-    },
-    {
       "title": "Shushu 自由研究所 on Facebook",
       "slug": "shushu-自由研究所-on-facebook",
       "fetchrss_url": "https://fetchrss.com/feed/aRSCG5NvSVmyaRSCMNCtC8qS.rss",
@@ -238,30 +226,6 @@
       "last_updated": "2025-11-17T17:26:47.120726+08:00",
       "status": "success",
       "total_posts": 11,
-      "new_posts_this_run": 0
-    },
-    {
-      "title": "張維中。東京模樣 on Facebook",
-      "slug": "張維中東京模樣-on-facebook",
-      "fetchrss_url": "https://fetchrss.com/feed/aRSD2Q6z4R6SaRSD5yC9ubES.rss",
-      "accumulated_url": "https://tommykhs.github.io/FBeed/feeds/張維中東京模樣-on-facebook.xml",
-      "description": "東京模樣是一種生活態度，東京模樣說的不只是東京。  \n\n作家張維中的臉書專頁\n_\n★不會以私人帳號名義私下加好友，請慎防詐騙帳號，收到幫忙檢舉！",
-      "link": "https://www.facebook.com/weizhong925",
-      "last_updated": "2025-11-12T21:27:17.255152+08:00",
-      "status": "success",
-      "total_posts": 8,
-      "new_posts_this_run": 0
-    },
-    {
-      "title": "日本旅遊粉絲報 on Facebook",
-      "slug": "日本旅遊粉絲報-on-facebook",
-      "fetchrss_url": "https://fetchrss.com/feed/aRSEBHVLTS0yaRSEFXW0uKZy.rss",
-      "accumulated_url": "https://tommykhs.github.io/FBeed/feeds/日本旅遊粉絲報-on-facebook.xml",
-      "description": "最新日本美食甜點，新開景點購物點，交通資訊攻略，期間限定精品，機票酒店優惠，日遊情報一頁盡覽！",
-      "link": "https://www.facebook.com/japantravelfood",
-      "last_updated": "2025-11-14T18:23:30.229308+08:00",
-      "status": "success",
-      "total_posts": 9,
       "new_posts_this_run": 0
     },
     {
