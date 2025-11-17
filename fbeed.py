@@ -267,13 +267,46 @@ def update_metadata(metadata, feed_info):
     metadata['last_run'] = datetime.now(HK_TZ).isoformat()
 
 
+def cleanup_orphaned_feeds(config, metadata):
+    """Remove XML files and metadata entries for feeds no longer in config.yaml"""
+    print("\n🧹 Checking for orphaned feeds...")
+
+    # Get all configured FetchRSS URLs
+    configured_urls = set(feed_config['fetchrss_url'] for feed_config in config['feeds'])
+
+    # Check metadata for orphaned entries
+    orphaned_metadata = []
+    for feed in metadata.get('feeds', []):
+        if feed['fetchrss_url'] not in configured_urls:
+            orphaned_metadata.append(feed)
+
+    if orphaned_metadata:
+        print(f"  Found {len(orphaned_metadata)} orphaned metadata entries:")
+        for feed in orphaned_metadata:
+            print(f"    - {feed['title']} ({feed['fetchrss_url']})")
+
+            # Delete corresponding XML file
+            xml_path = f"feeds/{feed['slug']}.xml"
+            if os.path.exists(xml_path):
+                os.remove(xml_path)
+                print(f"      🗑️  Deleted {xml_path}")
+
+            # Remove from metadata
+            metadata['feeds'].remove(feed)
+            print(f"      🗑️  Removed from metadata")
+    else:
+        print("  ✅ No orphaned feeds found")
+
+    return len(orphaned_metadata)
+
+
 def main():
     """Main execution function"""
     print("FBeed - Starting feed accumulation...")
-    
+
     # Load configuration
     config = load_config()
-    
+
     # Load or create metadata
     metadata_path = 'metadata/feed-status.json'
     if os.path.exists(metadata_path):
@@ -281,31 +314,31 @@ def main():
             metadata = json.load(f)
     else:
         metadata = {'feeds': [], 'last_run': None}
-    
+
     # Process each feed
     for feed_config in config['feeds']:
         fetchrss_url = feed_config['fetchrss_url']
         print(f"\nProcessing: {fetchrss_url}")
-        
+
         # Fetch feed
         feed_data = fetch_feed(fetchrss_url)
         if not feed_data or not feed_data.entries:
             print(f"  ❌ Failed to fetch or empty feed")
             continue
-        
+
         # Extract metadata
         feed_title = feed_data.feed.get('title', 'Untitled Feed')
         feed_description = feed_data.feed.get('description', '')
         feed_link = feed_data.feed.get('link', '')
         slug = generate_slug(feed_title)
-        
+
         print(f"  Feed: {feed_title}")
         print(f"  Slug: {slug}")
-        
+
         # Load existing or create new feed
         feed_path = f'feeds/{slug}.xml'
         existing = load_existing_feed(feed_path)
-        
+
         if existing:
             tree = existing['tree']
             existing_guids = existing['guids']
@@ -314,15 +347,15 @@ def main():
             tree = create_new_feed(feed_data)
             existing_guids = set()
             print(f"  Creating new feed")
-        
+
         # Add new items
         new_items_count = add_items_to_feed(tree, feed_data, existing_guids)
         print(f"  Added {new_items_count} new posts")
-        
+
         # Save feed
         save_feed(tree, feed_path)
         print(f"  ✅ Saved to {feed_path}")
-        
+
         # Update metadata
         feed_info = {
             'title': feed_title,
@@ -337,12 +370,15 @@ def main():
             'new_posts_this_run': new_items_count
         }
         update_metadata(metadata, feed_info)
-    
+
+    # Clean up orphaned feeds
+    cleanup_orphaned_feeds(config, metadata)
+
     # Save metadata
     os.makedirs('metadata', exist_ok=True)
     with open(metadata_path, 'w', encoding='utf-8') as f:
         json.dump(metadata, f, ensure_ascii=False, indent=2)
-    
+
     print(f"\n✅ Feed accumulation complete!")
     print(f"Metadata saved to {metadata_path}")
 
