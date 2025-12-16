@@ -3,7 +3,28 @@
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns1="http://search.yahoo.com/mrss/" version="2.0"><channel><title>丘紫薇 Yumi Yau on Facebook</title><description>十年財經記者仔
 由電視台公仔箱跳到多媒體平台
 放眼世界，一邊工作
-一邊走向知識增長的目標</description><link>https://www.facebook.com/yumiyau724</link><pubDate>Tue, 16 Dec 2025 23:26:27 +0800</pubDate><image><url>data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCc+PHBhdGggZmlsbD0nIzE4NzdmMicgZD0nTTI0IDEyLjA3M2MwLTYuNjI3LTUuMzczLTEyLTEyLTEycy0xMiA1LjM3My0xMiAxMmMwIDUuOTkgNC4zODggMTAuOTU0IDEwLjEyNSAxMS44NTR2LTguMzg1SDcuMDc4di0zLjQ3aDMuMDQ3VjkuNDNjMC0zLjAwNyAxLjc5Mi00LjY2OSA0LjUzMy00LjY2OSAxLjMxMiAwIDIuNjg2LjIzNSAyLjY4Ni4yMzV2Mi45NTNIMTUuODNjLTEuNDkxIDAtMS45NTYuOTI1LTEuOTU2IDEuODc0djIuMjVoMy4zMjhsLS41MzIgMy40N2gtMi43OTZ2OC4zODVDMTkuNjEyIDIzLjAyNyAyNCAxOC4wNjIgMjQgMTIuMDczeicvPjwvc3ZnPg==</url><title>丘紫薇 Yumi Yau on Facebook</title><link>https://www.facebook.com/yumiyau724</link></image><generator>FBeed - Facebook Feed Accumulator</generator><item><title>減息喎！仲翹埋雙手等運到？</title><link>https://www.facebook.com/reel/1168693331603284/</link><description>減息喎！仲翹埋雙手等運到？&lt;br /&gt;
+一邊走向知識增長的目標</description><link>https://www.facebook.com/yumiyau724</link><pubDate>Wed, 17 Dec 2025 00:31:32 +0800</pubDate><image><url>data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCc+PHBhdGggZmlsbD0nIzE4NzdmMicgZD0nTTI0IDEyLjA3M2MwLTYuNjI3LTUuMzczLTEyLTEyLTEycy0xMiA1LjM3My0xMiAxMmMwIDUuOTkgNC4zODggMTAuOTU0IDEwLjEyNSAxMS44NTR2LTguMzg1SDcuMDc4di0zLjQ3aDMuMDQ3VjkuNDNjMC0zLjAwNyAxLjc5Mi00LjY2OSA0LjUzMy00LjY2OSAxLjMxMiAwIDIuNjg2LjIzNSAyLjY4Ni4yMzV2Mi45NTNIMTUuODNjLTEuNDkxIDAtMS45NTYuOTI1LTEuOTU2IDEuODc0djIuMjVoMy4zMjhsLS41MzIgMy40N2gtMi43OTZ2OC4zODVDMTkuNjEyIDIzLjAyNyAyNCAxOC4wNjIgMjQgMTIuMDczeicvPjwvc3ZnPg==</url><title>丘紫薇 Yumi Yau on Facebook</title><link>https://www.facebook.com/yumiyau724</link></image><generator>FBeed - Facebook Feed Accumulator</generator><item><title>【唔好意思，又寫NVDA….】</title><link>https://www.facebook.com/625772249551197/posts/1473745654753848</link><description>【唔好意思，又寫NVDA….】&lt;br /&gt;
+1. 一間賣鏟的公司，2020年完成收購Mellanox提供networking產品，透過網絡連結提升運算效能，近日則收購了軟件公司SchedMD，睇中在算力安排中，有如交通督導員的SLURM，鞏固算力系統的護城河。&lt;br /&gt;
+&lt;br /&gt;
+2. SLURM在2002年美國一個國家實驗室開發出來，是一個開源式、用來管理數據中心成千上萬張GPU的workload，好似一個交通督導員咁，指揮啲車幾時行，令交通暢順，用盡每條路優勢，避免塞車，提升AI模型用戶的體驗。如果塞車，即係等好耐先有答案就唔好啦😅&lt;br /&gt;
+&lt;br /&gt;
+3. 根據Semi-analysis的說法，好多AI公司例如Mistral、Thinking Machines、Meta的FAIR部門、大學學術實驗室等等都用上SLURM。就算唔用Nvidia粒U，用AMD或者其他ASIC晶片的用戶都用SLURM，可見其廣泛使用的程度。&lt;br /&gt;
+&lt;br /&gt;
+4. 至於今次Nvidia收購的SchedMD，在2010年成立，睇年份就知SLURM唔係由SchedMD研發，不過SchedMD做好多SLURM的後續功能開發、長期維護和商業支援，令SchedMD主導左SLURM的版本更新節奏。&lt;br /&gt;
+&lt;br /&gt;
+5. 收購「交通督導員」有咩用？根據Garther早前關於AI基建研究報告的描述，完整的AI基礎設施分三個層面（見圖），第一層包括運算硬件，即係GPU、CPU、ASIC晶片等等，並透過networking網絡連結產品進行scale-up和scale-out來提升運算效能，仲有儲存設施來提升數據吞吐能力。&lt;br /&gt;
+&lt;br /&gt;
+6. 第二層是AI平台層，管理第一層的算力資源，即提高每張GPU和TPU的投資回報，讓用戶在呢個平台上用盡資源去研發AI應用程式和訓練AI Agent等等。&lt;br /&gt;
+&lt;br /&gt;
+AI平台層分兩部分，基礎部分是管理和擴展應用程式的編排平台，有如交通燈的作用，較常用包括Kubernetes等。另一部分就係交通督導員，按交通燈指示指導行車，有兩種做法，一個係按模型所需要的吞吐能力來安排俾幾多算力，SLURM就係呢種；另一做法係令GPU打幾份工，chur盡張GPU，去年12月Nvidia收購的Run:ai就用呢種做法來管理算力。個人認爲Nvidia收購Run:ai和SchedMD，無非想增加算力管理呢部分的話語權，增加客戶使用GPU的意願。&lt;br /&gt;
+&lt;br /&gt;
+7. 最後一層是AI Value scaling，根據上述兩層基礎設施研發了各種AI模型之後，透過推論、Agent應用和物理AI（機械人、車等等）來擴展AI價值，簡單而言即係將AI在現實世界中實踐。&lt;br /&gt;
+&lt;br /&gt;
+最近Nvidia也進軍呢一層，發布名為Nemotron 3開源模型，其目的應該不是與Gemini和ChatGPT爭生意，而是假如有些主權國家，或者對數據安全和模型透明度有高度要求的企業和機構，例如醫療、金融等行業需要用到開源模型的時候，面對Llama收檔轉行閉源「牛油果」，又唔想揀開源模型好強的某國產物，Nemotron 3可能係其中一個選擇。&lt;br /&gt;
+&lt;br /&gt;
+［筆者為證監會持牌人士，客戶投資組合持有Nvidia和Google]&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src="https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/598937166_1473698028091944_6761749621287773134_n.jpg?_nc_cat=109&amp;amp;ccb=1-7&amp;amp;_nc_sid=833d8c&amp;amp;_nc_ohc=8c67UvRTeQ4Q7kNvwHBAQ7z&amp;amp;_nc_oc=Adk0s5wQw3oWsP7rRk9x_pOsu_C8BpC_SOyalZchpI0Sb3ybGUNYuXovKDR4ulDMF30&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-cdg4-2.xx&amp;amp;edm=AJdBtusEAAAA&amp;amp;_nc_gid=dTjhGR7IqRo0hImL6ykjuw&amp;amp;_nc_tpa=Q5bMBQFyjY3TQ0gXpXsqOn8K3WTbRwgV5IUwE7NCypIoSZJ-jp4kd8ooB_jrn_CgitjrJV4P1KRqTsWU&amp;amp;oh=00_AfnFv-OuI58WfZMKAed5N5BoB3nu7uLSHkWlbJmGbCd6mw&amp;amp;oe=69474D4E" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;span style="font-size: 12px; color: gray;"&gt;(Feed generated with &lt;a href="https://fetchrss.com/feedLink?w=691471aed399a2df580c82c3" target="_blank"&gt;FetchRSS&lt;/a&gt;)&lt;/span&gt;</description><dc:creator>丘紫薇 Yumi Yau</dc:creator><pubDate>Tue, 16 Dec 2025 15:10:10 +0000</pubDate><ns1:content url="https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/598937166_1473698028091944_6761749621287773134_n.jpg?_nc_cat=109&amp;ccb=1-7&amp;_nc_sid=833d8c&amp;_nc_ohc=8c67UvRTeQ4Q7kNvwHBAQ7z&amp;_nc_oc=Adk0s5wQw3oWsP7rRk9x_pOsu_C8BpC_SOyalZchpI0Sb3ybGUNYuXovKDR4ulDMF30&amp;_nc_zt=23&amp;_nc_ht=scontent-cdg4-2.xx&amp;edm=AJdBtusEAAAA&amp;_nc_gid=dTjhGR7IqRo0hImL6ykjuw&amp;_nc_tpa=Q5bMBQFyjY3TQ0gXpXsqOn8K3WTbRwgV5IUwE7NCypIoSZJ-jp4kd8ooB_jrn_CgitjrJV4P1KRqTsWU&amp;oh=00_AfnFv-OuI58WfZMKAed5N5BoB3nu7uLSHkWlbJmGbCd6mw&amp;oe=69474D4E" medium="image" /><guid isPermaLink="false">104061851346104_1473745654753848</guid></item><item><title>減息喎！仲翹埋雙手等運到？</title><link>https://www.facebook.com/reel/1168693331603284/</link><description>減息喎！仲翹埋雙手等運到？&lt;br /&gt;
 &lt;br /&gt;
 揀日圓、英鎊，或者美金，喺匯市發掘交易機會！&lt;br /&gt;
 &lt;br /&gt;
