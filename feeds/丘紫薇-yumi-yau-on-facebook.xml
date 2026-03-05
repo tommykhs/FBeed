@@ -3,7 +3,44 @@
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns1="http://search.yahoo.com/mrss/" version="2.0"><channel><title>丘紫薇 Yumi Yau on Facebook</title><description>十年財經記者仔
 由電視台公仔箱跳到多媒體平台
 放眼世界，一邊工作
-一邊走向知識增長的目標</description><link>https://www.facebook.com/yumiyau724</link><pubDate>Thu, 05 Mar 2026 13:49:50 +0800</pubDate><image><url>data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCc+PHBhdGggZmlsbD0nIzE4NzdmMicgZD0nTTI0IDEyLjA3M2MwLTYuNjI3LTUuMzczLTEyLTEyLTEycy0xMiA1LjM3My0xMiAxMmMwIDUuOTkgNC4zODggMTAuOTU0IDEwLjEyNSAxMS44NTR2LTguMzg1SDcuMDc4di0zLjQ3aDMuMDQ3VjkuNDNjMC0zLjAwNyAxLjc5Mi00LjY2OSA0LjUzMy00LjY2OSAxLjMxMiAwIDIuNjg2LjIzNSAyLjY4Ni4yMzV2Mi45NTNIMTUuODNjLTEuNDkxIDAtMS45NTYuOTI1LTEuOTU2IDEuODc0djIuMjVoMy4zMjhsLS41MzIgMy40N2gtMi43OTZ2OC4zODVDMTkuNjEyIDIzLjAyNyAyNCAxOC4wNjIgMjQgMTIuMDczeicvPjwvc3ZnPg==</url><title>丘紫薇 Yumi Yau on Facebook</title><link>https://www.facebook.com/yumiyau724</link></image><generator>FBeed - Facebook Feed Accumulator</generator><item><title>Photos from 丘紫薇 Yumi Yau's post</title><link>https://www.facebook.com/625772249551197/posts/1537187691742977</link><description>【從Howard Marks最新memo學習】&lt;br /&gt;
+一邊走向知識增長的目標</description><link>https://www.facebook.com/yumiyau724</link><pubDate>Thu, 05 Mar 2026 14:54:55 +0800</pubDate><image><url>data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCc+PHBhdGggZmlsbD0nIzE4NzdmMicgZD0nTTI0IDEyLjA3M2MwLTYuNjI3LTUuMzczLTEyLTEyLTEycy0xMiA1LjM3My0xMiAxMmMwIDUuOTkgNC4zODggMTAuOTU0IDEwLjEyNSAxMS44NTR2LTguMzg1SDcuMDc4di0zLjQ3aDMuMDQ3VjkuNDNjMC0zLjAwNyAxLjc5Mi00LjY2OSA0LjUzMy00LjY2OSAxLjMxMiAwIDIuNjg2LjIzNSAyLjY4Ni4yMzV2Mi45NTNIMTUuODNjLTEuNDkxIDAtMS45NTYuOTI1LTEuOTU2IDEuODc0djIuMjVoMy4zMjhsLS41MzIgMy40N2gtMi43OTZ2OC4zODVDMTkuNjEyIDIzLjAyNyAyNCAxOC4wNjIgMjQgMTIuMDczeicvPjwvc3ZnPg==</url><title>丘紫薇 Yumi Yau on Facebook</title><link>https://www.facebook.com/yumiyau724</link></image><generator>FBeed - Facebook Feed Accumulator</generator><item><title>【長文！一口氣講LITE與CRDO前景】</title><link>https://www.facebook.com/625772249551197/posts/1542657044529375</link><description>【長文！一口氣講LITE與CRDO前景】&lt;br /&gt;
+1. NV向兩間光通訊公司LITE和COHR合共投資40億美元，進一步牽動市場「棄銅投光」的思維。根據相關投資協議，內容均包括各自數十億美元採購承諾、未來先進雷射組件的產能使用權、支持研發和擴充產能等等。&lt;br /&gt;
+&lt;br /&gt;
+2. 同日，LITE與大摩有個會議，焦點當然落在與NV的投資協議上。LITE CEO在會議上指出，NV過去已經與產業鏈中的企業達成多項協議，LITE現在成為其中一份子，是因為NV看到光通訊的關鍵材料磷化銦(Indium Phosphide/InP)的短缺，基於網絡連結在銅轉向光學技術的需求，NV投資LITE和COHR是鎖定了磷化銦(InP)相當大部分產能，增加未來產品供應的確定性。&lt;br /&gt;
+&lt;br /&gt;
+3. 現時LITE有四間磷化銦(InP)相關生產廠房，即使在未來兩季提高產能兩成，亦未能滿足客戶需求，考慮到同業對手增產之後，暫時2027至2028年產品仍然售罄，所以決定增建第五間廠房來滿足需求。&lt;br /&gt;
+&lt;br /&gt;
+4. 四間廠房分布在日本和英國，主要因為靠近供應商，LITE話已經跟兩間日本InP供應商(應該是住友電工和JX金屬)簽訂長期合約，確保直到2030年也有穩定InP供應，所以不擔心中國原材料出口限制帶來影響。&lt;br /&gt;
+&lt;br /&gt;
+5.根據NV一月在CES大會上展示的新一代運算伺服器系統Vera Rubin中，專門用作網絡連結scale-out(把不同機櫃連接起來)的Ethernet交換器Spectrum-X，首次採用共同封裝光學技術(CPO)。由於光學晶片即係大家經常聽人講的「矽光子」(Silicon Photonics)本身無法產生高效率光源，所以需要用到磷化銦(InP)，令發光波長適宜用作高效光纖通訊。&lt;br /&gt;
+&lt;br /&gt;
+6.那些光通訊晶片不會由台積電生產，均由LITE和COHR等供應商自行生產。雖然市場上暫時只有NV和AVGO需要CPO產能，但無論LITE和COHR都話產能已售罄，為了確保Vera Rubin的供應不會卡在CPO產能上，所以NV便一口氣投資LITE和COHR。&lt;br /&gt;
+&lt;br /&gt;
+7. 又在同一段時間，被市場視為LITE和COHR對家的CRDO公布業績，無論業績抑或新一季指引都超出市場預期，不過績後股價大跌為敬，源於市場堅持「銅線死了」思維，忽略了公司因應技術發展趨勢而轉身。&lt;br /&gt;
+&lt;br /&gt;
+8. 首先，銅線是否馬上「死」了？從NV在CES大會上展示新一代伺服器系統Vera Rubin可見，雖然機櫃設計由Blackwell晶片伺服器採用的Oberon轉為新設計Kyber，但在scale-up網絡連結上，即是把機櫃內每一層運算和交換器層架連接起來的時候，仍然採用AEC銅線來連接，老黃當時解釋，因為銅線在1.6T網速傳輸時可靠性和穩定性仍然偏高，加上成本亦比其他連接方案低，所以下半年開始交貨、明年量產的Vera Rubin伺服器系統仍然採用銅線。&lt;br /&gt;
+&lt;br /&gt;
+9. 另一邊陣營即係ASIC那邊，AVGO在最新業績會議上這樣說：「在scale-up網絡連結上，基於銅線可達到低延遲、低耗能和低成本的要求(the lowest latency, lowest power and lowest cost)，所以盡可能都是用銅線。再配合博通的技術，把每一條銅線的傳輸速度由100G推高到200G、甚至400G，所以在scale-up層面上，無需盲目追求所謂CPO。」&lt;br /&gt;
+&lt;br /&gt;
+10. 由於伺服器在scale-up的時候，把機櫃內每一層連接起來所用到的每一束線，入面有8條線，如果一條線行200G，即一束線可達到1.6TB傳輸速度。如果一條線好似AVGO咁講行400G，即一束線傳輸速度可達3.2TB。個人認為3.2TB對銅線而言，物理上去到極限。&lt;br /&gt;
+&lt;br /&gt;
+11. 那AVGO是否排除了光通訊的CPO用處呢？非也，只是時間上的問題：「就scale-up而言，CPO最終需要用到，但不是今年，或許也不是明年，總有一天會用到。不過就scale-out來說，光通訊是用得著的。」所以在短期內，一個AI數據中心入面的網絡連結，光與銅是並存的，因為它們各守崗位。針對CRDO的AEC銅線而言，AEC長度一向只有3米和7米，所以其收入貢獻一向來自伺服器機櫃scale-up，所以在光與銅並存的階段，AEC收入沒有減少。&lt;br /&gt;
+&lt;br /&gt;
+12. 當然，隨著AI應用對網絡連結的技術要求愈來愈高，CRDO也不能坐以待斃，故今次CRDO的業績會議重申了三大新產品的收入貢獻時間，包括接捧AEC銅線的ALC線(Active Micro-LED Cables)、連接XPU(運算晶片)與記憶體的「小盒子」OmniConnect Gearbox、以及懂得解決問題的光學接收器ZeroFlap Optics Transceivers.&lt;br /&gt;
+&lt;br /&gt;
+13. 先講光學接收器ZeroFlap Optics Transceivers，這個東西就是讓光和電能夠溝通的產品，即是把伺服器內晶片運算出來的「電訊號」轉換成「光訊號」，經光纖線傳送到另一部伺服器，便需把傳送過來的「光訊號」轉回「電訊號」，讓訊號順利在另一伺服器內的晶片運行。事實上，這種接收器其他公司也有提供，那CRDO有何特別之處？答案就是它內附軟件探測功能，名為「Telemetry」的探測技術，讓資料訊號傳送途中，同時監控每一條線的健康狀況，當發現有某條線的傳輸能力減弱，Telemetry便通知軟件控制台，讓控制台可馬上叫該條線或者晶片收工，以免影響整套運算系統運作。所以CRDO這款光學接收器不是一個簡單的零組件，而是附有解決問題功能的零組件。&lt;br /&gt;
+&lt;br /&gt;
+14. 上述ZeroFlap光學接收器已交付予新創公司TensorWave，另外有三間hyperscaler大型雲端商正進行產品認證，CRDO預計量產時間比原先預計早，相信在今年五月實現大規模量產。&lt;br /&gt;
+&lt;br /&gt;
+15. 第二款新產品「小盒子」OmniConnect Gearbox，是為了AI推論用的運算伺服器而設的。在現行的伺服器內，基於AI模型訓練對頻寬(bandwidth)要求極高，所以高頻寬記憶體HBM需要緊貼運算晶片(GPU/TPU)而放。不過到了AI推論，不過求頻寬，而是對記憶空間需求極大，所以針對AI推論而設的伺服器，可用比HBM成本較低的DDR記憶體，與運算晶片的擺放位置不需要緊貼，那如何把運算晶片和記憶體連接起來？這種連接器，就是OmniConnect Gearbox，產品名稱叫Weaver。CRDO預計Weaver將在2028財政年度量產，即是2027年五月開始。留意NV在今次GTC大會是否有如預期般推出針對AI推論而設的晶片和伺服器，便知道究竟Weaver有沒有需求。&lt;br /&gt;
+&lt;br /&gt;
+16. 最後講講ALC線(Active Micro-LED Cables)，CRDO預計量產時間同樣在明年五月後。被視為接AEC棒的ALC線，相信是NV在明年推出的新晶片Feynman的時候，scale-up網絡連結速度達到3.2TB，要打破物理限制，屆時銅線真的用不上了，轉為採用LED線，所以CRDO提出的量產時間合理。&lt;br /&gt;
+&lt;br /&gt;
+17. 根據TrendForce最新調研報告，Micro-LED方案的傳輸耗能較低，可大幅降低整體耗能至銅線方案的5%，有望成為光通訊替代方案。TrendForce的報告提到，CRDO收購了Hyperlume之後加強了光通訊技術能力，與微軟的MOSAIC架構和Avicena的LightBundle技術一樣，能夠提升資料傳輸效率與功耗表現。&lt;br /&gt;
+&lt;br /&gt;
+【筆者為證監會持牌人士，客戶投資組合持有LITE、CRDO和NVDA】&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src="https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/647153284_1542656954529384_3339213131890101688_n.jpg?_nc_cat=105&amp;amp;ccb=1-7&amp;amp;_nc_sid=13d280&amp;amp;_nc_ohc=cik4HfLicn4Q7kNvwFdvf5k&amp;amp;_nc_oc=AdmvooUPVX0-x46PCL2wYaoWpWK4C4nbGbL8-YB4aU1HSxpZU0a5_BmE56_lQu6WOhM&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-cdg4-1.xx&amp;amp;edm=AJdBtusEAAAA&amp;amp;_nc_gid=Jx6Ky5jrVRMPXt0IUnODbQ&amp;amp;_nc_tpa=Q5bMBQGgMQRMNfuHRYQXtrEPllk6rH73zUtbfQ6u7fVkq-Eihc-Wjwqn379AOGESl6xzfZAtU2B2tvfH&amp;amp;oh=00_Afw_Dsbd9zkcWCIK6YIA20t19SMsnRaDYkPrVbjYwp4l5A&amp;amp;oe=69AEF2F3" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;span style="font-size: 12px; color: gray;"&gt;(Feed generated with &lt;a href="https://fetchrss.com/feedLink?w=691471aed399a2df580c82c3" target="_blank"&gt;FetchRSS&lt;/a&gt;)&lt;/span&gt;</description><dc:creator>丘紫薇 Yumi Yau</dc:creator><pubDate>Thu, 05 Mar 2026 06:40:59 +0000</pubDate><ns1:content url="https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/647153284_1542656954529384_3339213131890101688_n.jpg?_nc_cat=105&amp;ccb=1-7&amp;_nc_sid=13d280&amp;_nc_ohc=cik4HfLicn4Q7kNvwFdvf5k&amp;_nc_oc=AdmvooUPVX0-x46PCL2wYaoWpWK4C4nbGbL8-YB4aU1HSxpZU0a5_BmE56_lQu6WOhM&amp;_nc_zt=23&amp;_nc_ht=scontent-cdg4-1.xx&amp;edm=AJdBtusEAAAA&amp;_nc_gid=Jx6Ky5jrVRMPXt0IUnODbQ&amp;_nc_tpa=Q5bMBQGgMQRMNfuHRYQXtrEPllk6rH73zUtbfQ6u7fVkq-Eihc-Wjwqn379AOGESl6xzfZAtU2B2tvfH&amp;oh=00_Afw_Dsbd9zkcWCIK6YIA20t19SMsnRaDYkPrVbjYwp4l5A&amp;oe=69AEF2F3" medium="image" /><guid isPermaLink="false">104061851346104_1542657044529375</guid></item><item><title>Photos from 丘紫薇 Yumi Yau's post</title><link>https://www.facebook.com/625772249551197/posts/1537187691742977</link><description>【從Howard Marks最新memo學習】&lt;br /&gt;
 1. 在最新備忘錄中，Howard Marks分享了他與科技界人士交流，以及使用Claude、Perplexity和GPT-5.3 Codex的過程和發現。首先，我認為無論投資者抑或普羅大眾，都應該學習Howard Marks願意和熱衷學習新事物的精神。為了探討AI是否泡沫，Howard Marks選擇與Claude交流和討論這個話題。&lt;br /&gt;
 &lt;br /&gt;
 2. Howard Marks話與Claude傾完之後，對Claude的對答感到驚訝，因為Claude的表現很人性化，Howard Marks讚Claude的論證邏輯清晰，認真討論的同時又有點幽默，亦會承認AI目前仍有局限，Howard Marks覺得反而增加了AI的可信度。&lt;br /&gt;
