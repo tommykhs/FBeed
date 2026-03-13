@@ -3,7 +3,37 @@
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns1="http://search.yahoo.com/mrss/" version="2.0"><channel><title>丘紫薇 Yumi Yau on Facebook</title><description>十年財經記者仔
 由電視台公仔箱跳到多媒體平台
 放眼世界，一邊工作
-一邊走向知識增長的目標</description><link>https://www.facebook.com/yumiyau724</link><pubDate>Fri, 13 Mar 2026 21:01:59 +0800</pubDate><image><url>data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCc+PHBhdGggZmlsbD0nIzE4NzdmMicgZD0nTTI0IDEyLjA3M2MwLTYuNjI3LTUuMzczLTEyLTEyLTEycy0xMiA1LjM3My0xMiAxMmMwIDUuOTkgNC4zODggMTAuOTU0IDEwLjEyNSAxMS44NTR2LTguMzg1SDcuMDc4di0zLjQ3aDMuMDQ3VjkuNDNjMC0zLjAwNyAxLjc5Mi00LjY2OSA0LjUzMy00LjY2OSAxLjMxMiAwIDIuNjg2LjIzNSAyLjY4Ni4yMzV2Mi45NTNIMTUuODNjLTEuNDkxIDAtMS45NTYuOTI1LTEuOTU2IDEuODc0djIuMjVoMy4zMjhsLS41MzIgMy40N2gtMi43OTZ2OC4zODVDMTkuNjEyIDIzLjAyNyAyNCAxOC4wNjIgMjQgMTIuMDczeicvPjwvc3ZnPg==</url><title>丘紫薇 Yumi Yau on Facebook</title><link>https://www.facebook.com/yumiyau724</link></image><generator>FBeed - Facebook Feed Accumulator</generator><item><title>Photos from 丘紫薇 Yumi Yau's post</title><link>https://www.facebook.com/625772249551197/posts/1547894410672305</link><description>【🦞爸爸Peter Steinberger的願望成真】&lt;br /&gt;
+一邊走向知識增長的目標</description><link>https://www.facebook.com/yumiyau724</link><pubDate>Fri, 13 Mar 2026 22:42:21 +0800</pubDate><image><url>data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCc+PHBhdGggZmlsbD0nIzE4NzdmMicgZD0nTTI0IDEyLjA3M2MwLTYuNjI3LTUuMzczLTEyLTEyLTEycy0xMiA1LjM3My0xMiAxMmMwIDUuOTkgNC4zODggMTAuOTU0IDEwLjEyNSAxMS44NTR2LTguMzg1SDcuMDc4di0zLjQ3aDMuMDQ3VjkuNDNjMC0zLjAwNyAxLjc5Mi00LjY2OSA0LjUzMy00LjY2OSAxLjMxMiAwIDIuNjg2LjIzNSAyLjY4Ni4yMzV2Mi45NTNIMTUuODNjLTEuNDkxIDAtMS45NTYuOTI1LTEuOTU2IDEuODc0djIuMjVoMy4zMjhsLS41MzIgMy40N2gtMi43OTZ2OC4zODVDMTkuNjEyIDIzLjAyNyAyNCAxOC4wNjIgMjQgMTIuMDczeicvPjwvc3ZnPg==</url><title>丘紫薇 Yumi Yau on Facebook</title><link>https://www.facebook.com/yumiyau724</link></image><generator>FBeed - Facebook Feed Accumulator</generator><item><title>Photos from 丘紫薇 Yumi Yau's post</title><link>https://www.facebook.com/625772249551197/posts/1548761543918925</link><description>【讓AI有「手腳」工作的人不是大媽，而是開發者】&lt;br /&gt;
+1. 對於有些地方興起安裝OpenClaw熱潮，無論技術人員抑或廣場大媽都裝起來，甚為不解。如果以當年移動互聯網發展時期的角度去看現時AI Agent/代理的發展，大家的智能手機內的應用程式APP絕大多數由開發者製造出來，並非由我、你或者普通大媽大叔們開發出來。有了AI Agent，對應用、軟件和硬件公司的前景有何改變？&lt;br /&gt;
+&lt;br /&gt;
+2. 如果仍覺得AI等於聊天機器人，只是一問一答的使用形式，今年開始已經不同了。把AI模型形容為大腦的話，那AI Agent/代理就是AI的手手腳腳，像人類一樣使用電腦、使用軟件。除了OpenClaw，Perplexity的Personal Computer以及傳聞NV可能推出的開源AI Agent平台NemoClaw等等，都是製造手手腳腳的地方。試問一般人、對製造應用程式毫無概念的人如何在這些地方提煉AI的手腳出來。&lt;br /&gt;
+&lt;br /&gt;
+3. 而隨著科技的發展，開發者在現今AI Agent時代的工作和角色，與當年移動互聯網時期完全不同了(圖一)。OpenClaw創辦人Peter &lt;br /&gt;
+Steinberger在早前的訪問時提及過開發者的角色會如何轉變：以往開發者根據市場需求或個人創意，自己寫程式碼並開發出人人皆識用的應用程式APP，但來到AI時代，開發者的角色由落手落腳做的人轉為指揮家，在AI Agent製造平台上下一道指令，指令AI製造不同類型的Agent出來。在製造過程中，由AI編寫程式碼，根據指令去製造Agent。&lt;br /&gt;
+&lt;br /&gt;
+4. 除了給予指令，開發者另一工作是賦予AI Agent足夠的權限、工具和判斷原則，來完成人類使用者的要求和任務。這一點，個人想補充少許，我認為開發者還有第三項工作，就是製造AI Agent的時候，內建安全與私隱管理工具，類似資訊安全軟件功能，加強AI Agent在商業世界、甚至社會的應用程度。&lt;br /&gt;
+&lt;br /&gt;
+5. 根據雲端存儲供應商Box創辦人Aaron Levie的文章所說(圖三)，AI Agent將被引入至近乎所有工作領域，例如未來將會有一個Agent負責審核每一份合約，會有一個Agent審計每間公司的財務收況，亦有Agent負責梳理每一份藥物研發相關的醫學研究報告，也有Agent代表消費者進行網上交易等等。Aaron Levie的看法是，AI Agent將參與社會上近乎所有具備經濟價值的任務。&lt;br /&gt;
+&lt;br /&gt;
+6. 當AI Agents愈來愈多人用，應用層面愈來愈廣泛，所產生的tokens便愈來愈多，需要更高效的運算來處理tokens，亦需要能源和基建來支援運算工作。這些就是最近黃仁勳在網誌上強調的「AI是一件五層蛋糕」(圖二)。&lt;br /&gt;
+&lt;br /&gt;
+7. 第一層即係基層是能源，每一個token都需要電力來驅動，需要散熱和電源管理，提供穩定電力來支援其他層蛋糕。&lt;br /&gt;
+&lt;br /&gt;
+8. 第二層是晶片，把能源轉化為大規模兼高效能的運算，有如一個焗爐般，隨著製作的蛋糕愈來愈大，普通家用小型焗爐已不能滿足要求，需要一個更大、更智能的焗爐來製作蛋糕，所以晶片、HBM和網絡連結都需要同步進步，提升AI的運算速度和降低成本。&lt;br /&gt;
+&lt;br /&gt;
+9. 第三層是基礎設施，包括土地、網絡(scale-out、scale-across)和供電設施等等，讓數據中心內數萬個伺服器有序排列成一套系統，有如連接電力和焗爐中間個條電線，缺一不可。&lt;br /&gt;
+&lt;br /&gt;
+10. 第四層則是模型，除了有我們已知的大語言模型LLM，亦因應不同需要，例如生物、化學、金融、醫學和機械人等領域，研發因應不同領域需要的模型，來支援應用。&lt;br /&gt;
+&lt;br /&gt;
+11. 最後第五層當然就是應用，根據不同領域的模型，製造成不同AI Agents，涵蓋藥物研發、自動駕駛、文書處理和工業及家用機械人等等，老黃指這些就是經濟價值創造之處。而應用層亦會拉動各層的運作和升級。&lt;br /&gt;
+&lt;br /&gt;
+12. 大家在這五層蛋糕之中，看到投資機會嗎？&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src="https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/650303472_1548658687262544_2207820682375373850_n.jpg?stp=dst-jpg_p720x720_tt6&amp;amp;_nc_cat=107&amp;amp;ccb=1-7&amp;amp;_nc_sid=13d280&amp;amp;_nc_ohc=MTH1O5AoO3EQ7kNvwGCkuvm&amp;amp;_nc_oc=Adn1JPng0G_OGVGOV9-t_odQnHwzRmHN1y9q_iEAJeNcDy2myAvz6yCZ7RESH-oAWeI&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-cdg4-2.xx&amp;amp;edm=AJdBtusEAAAA&amp;amp;_nc_gid=hBMg2Beo3hQ7A4SelZFCvw&amp;amp;_nc_tpa=Q5bMBQHpqNLzNniSyQS2L8QNIXFQtQq9p1QAKztal6xKPim83BML5yTt5xuJM_DmxZxkpQRLcGhSKzeW&amp;amp;oh=00_Afw74o01emkZToNy6YyuVg_X-HsM-d15ivtLQxh-x-KSWw&amp;amp;oe=69BA0574" /&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;img height="1080" src="https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/649870262_1548661387262274_886710458732071308_n.jpg?stp=dst-jpg_p720x720_tt6&amp;amp;_nc_cat=104&amp;amp;ccb=1-7&amp;amp;_nc_sid=13d280&amp;amp;_nc_ohc=KqHG14k8lu4Q7kNvwFRvF6W&amp;amp;_nc_oc=AdmXrXoIKTiJsnNj-kFXREgrMU047B4C4TLJL0j859P-ynm6h1WpQgOL_fppv8i47Gc&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-cdg4-1.xx&amp;amp;edm=AJdBtusEAAAA&amp;amp;_nc_gid=hBMg2Beo3hQ7A4SelZFCvw&amp;amp;_nc_tpa=Q5bMBQGc6yYzX1_1P2eqUKFMGKMFx9hIY2FEehcSdnR00PvxccktUT9fhfPt5pm-UkaNg97EIdTHJDfW&amp;amp;oh=00_Afyrjlf5RkLAePIOizuLKt7rIv8gSm_3Z5kKo3T_E6IGEg&amp;amp;oe=69BA0328" width="720" /&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;img height="431" src="https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/649281664_1548677443927335_4369085372391210553_n.jpg?_nc_cat=100&amp;amp;ccb=1-7&amp;amp;_nc_sid=13d280&amp;amp;_nc_ohc=veDVxeeKUf8Q7kNvwEHoP7P&amp;amp;_nc_oc=AdknUN17KFEhn6zeg_wt2iku3oxe8sY7FlBLp6cLkTwUcvSQj-UA7WU_v1CgCJIYtK4&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-cdg4-2.xx&amp;amp;edm=AJdBtusEAAAA&amp;amp;_nc_gid=hBMg2Beo3hQ7A4SelZFCvw&amp;amp;_nc_tpa=Q5bMBQHe0fe1Kz8Wb4GfHJHi76zOHylqR-cC2HboCBanWXC-oX6Ouetqt_-9oJByhOCb-M5gn_Mybo1e&amp;amp;oh=00_AfxwW5AXM-JYIFV0ZQkZOUBKSeLdTD99isgFs_HcF5ThYQ&amp;amp;oe=69B9E04A" width="592" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;span style="font-size: 12px; color: gray;"&gt;(Feed generated with &lt;a href="https://fetchrss.com/feedLink?w=691471aed399a2df580c82c3" target="_blank"&gt;FetchRSS&lt;/a&gt;)&lt;/span&gt;</description><dc:creator>丘紫薇 Yumi Yau</dc:creator><pubDate>Thu, 12 Mar 2026 10:30:42 +0000</pubDate><ns1:content url="https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/650303472_1548658687262544_2207820682375373850_n.jpg?stp=dst-jpg_p720x720_tt6&amp;_nc_cat=107&amp;ccb=1-7&amp;_nc_sid=13d280&amp;_nc_ohc=MTH1O5AoO3EQ7kNvwGCkuvm&amp;_nc_oc=Adn1JPng0G_OGVGOV9-t_odQnHwzRmHN1y9q_iEAJeNcDy2myAvz6yCZ7RESH-oAWeI&amp;_nc_zt=23&amp;_nc_ht=scontent-cdg4-2.xx&amp;edm=AJdBtusEAAAA&amp;_nc_gid=hBMg2Beo3hQ7A4SelZFCvw&amp;_nc_tpa=Q5bMBQHpqNLzNniSyQS2L8QNIXFQtQq9p1QAKztal6xKPim83BML5yTt5xuJM_DmxZxkpQRLcGhSKzeW&amp;oh=00_Afw74o01emkZToNy6YyuVg_X-HsM-d15ivtLQxh-x-KSWw&amp;oe=69BA0574" medium="image" /><guid isPermaLink="false">104061851346104_1548761543918925</guid></item><item><title>Photos from 丘紫薇 Yumi Yau's post</title><link>https://www.facebook.com/625772249551197/posts/1547894410672305</link><description>【🦞爸爸Peter Steinberger的願望成真】&lt;br /&gt;
 睇番OpenClaw創辦人Peter Steinberger加入OpenAI的目的，是希望人人都擁有AI助手，連媽媽都識用的AI助手(build an agent that even my mum can use)。&lt;br /&gt;
 &lt;br /&gt;
 現在不只媽媽識用，大媽都爭住用🥳&lt;br /&gt;
