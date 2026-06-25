@@ -3,7 +3,43 @@
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns1="http://search.yahoo.com/mrss/" version="2.0"><channel><title>FinGuider 美股資訊網 on Facebook</title><description>FinGuider 美股資訊網由台灣新創團隊打造，幫助更效率的投資決策。
 我們提供直觀財報數據圖表、市場趨勢新聞、分析師評價、AI 趨勢與選股工具，助您快速掌握市場重點、挖掘潛在投資機會。
 歡迎追蹤社群，獲取最新財經資訊（非投資建議）。
-免費註冊 https://finguider.cc/home</description><link>https://www.facebook.com/FinGuider</link><pubDate>Fri, 26 Jun 2026 05:43:44 +0800</pubDate><image><url>data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCc+PHBhdGggZmlsbD0nIzE4NzdmMicgZD0nTTI0IDEyLjA3M2MwLTYuNjI3LTUuMzczLTEyLTEyLTEycy0xMiA1LjM3My0xMiAxMmMwIDUuOTkgNC4zODggMTAuOTU0IDEwLjEyNSAxMS44NTR2LTguMzg1SDcuMDc4di0zLjQ3aDMuMDQ3VjkuNDNjMC0zLjAwNyAxLjc5Mi00LjY2OSA0LjUzMy00LjY2OSAxLjMxMiAwIDIuNjg2LjIzNSAyLjY4Ni4yMzV2Mi45NTNIMTUuODNjLTEuNDkxIDAtMS45NTYuOTI1LTEuOTU2IDEuODc0djIuMjVoMy4zMjhsLS41MzIgMy40N2gtMi43OTZ2OC4zODVDMTkuNjEyIDIzLjAyNyAyNCAxOC4wNjIgMjQgMTIuMDczeicvPjwvc3ZnPg==</url><title>FinGuider 美股資訊網 on Facebook</title><link>https://www.facebook.com/FinGuider</link></image><generator>FBeed - Facebook Feed Accumulator</generator><item><title>記憶體大廠 #美光（#MU）盤後發布 FY2026Q3 財報，營收年增 346% 至 414.6 億美元、優於市場預期的 358.4 億，調整後 EPS 報 25.11 美元、遠優於預期的 20.78 美元，受惠於各終端市場強勁的價格表現，各事業單位皆創下...</title><link>https://www.facebook.com/520105843492901/posts/1484309847072491</link><description>記憶體大廠 #美光（#MU）盤後發布 FY2026Q3 財報，營收年增 346% 至 414.6 億美元、優於市場預期的 358.4 億，調整後 EPS 報 25.11 美元、遠優於預期的 20.78 美元，受惠於各終端市場強勁的價格表現，各事業單位皆創下營收新高，獲利也顯著擴張。展望未來，美光提供了輾壓分析師預期的 Q4 展望，並進一步調升資本支出指引，盤後飆升超過 +14%。&lt;br /&gt;
+免費註冊 https://finguider.cc/home</description><link>https://www.facebook.com/FinGuider</link><pubDate>Fri, 26 Jun 2026 07:19:00 +0800</pubDate><image><url>data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCc+PHBhdGggZmlsbD0nIzE4NzdmMicgZD0nTTI0IDEyLjA3M2MwLTYuNjI3LTUuMzczLTEyLTEyLTEycy0xMiA1LjM3My0xMiAxMmMwIDUuOTkgNC4zODggMTAuOTU0IDEwLjEyNSAxMS44NTR2LTguMzg1SDcuMDc4di0zLjQ3aDMuMDQ3VjkuNDNjMC0zLjAwNyAxLjc5Mi00LjY2OSA0LjUzMy00LjY2OSAxLjMxMiAwIDIuNjg2LjIzNSAyLjY4Ni4yMzV2Mi45NTNIMTUuODNjLTEuNDkxIDAtMS45NTYuOTI1LTEuOTU2IDEuODc0djIuMjVoMy4zMjhsLS41MzIgMy40N2gtMi43OTZ2OC4zODVDMTkuNjEyIDIzLjAyNyAyNCAxOC4wNjIgMjQgMTIuMDczeicvPjwvc3ZnPg==</url><title>FinGuider 美股資訊網 on Facebook</title><link>https://www.facebook.com/FinGuider</link></image><generator>FBeed - Facebook Feed Accumulator</generator><item><title>🎯高通（#QCOM）在 2026 年投資者日上預測，資料中心業務將在未來五年衝破 150 億美元，同時汽車及物聯網業務將分別帶來 100、140 億營收，讓 #非手機業務 有望在 FY2029 突破 400 億大關，激勵盤後股價飆升 +13%。</title><link>https://www.facebook.com/520105843492901/posts/1484480260388783</link><description>🎯高通（#QCOM）在 2026 年投資者日上預測，資料中心業務將在未來五年衝破 150 億美元，同時汽車及物聯網業務將分別帶來 100、140 億營收，讓 #非手機業務 有望在 FY2029 突破 400 億大關，激勵盤後股價飆升 +13%。&lt;br /&gt;
+​&lt;br /&gt;
+這項大膽的預測較 2024 年的預測翻了近一倍，隱含 40% 年複合成長率。高通表示，將憑藉低功耗晶片的優勢積極搶攻 AI 資料中心、車用與機器人市場，並推出符合美國出口管制規範的產品布局中國。以下為高通向 AI 晶片大廠發起挑戰的幾個看點：&lt;br /&gt;
+​&lt;br /&gt;
+1️⃣資料中心市場&lt;br /&gt;
+高通推出了 Dragonfly 基礎設施平台，明確指出「每瓦生成的 Token 數」正在取代「每秒浮點運算次數」（FLOPS），成為 AI 代理時代最重要的評估指標，與傳統 GPU 相比，高通的解決方案能提供高達 8 倍的「每瓦每秒 Token 數」優勢。&lt;br /&gt;
+​&lt;br /&gt;
+高通提出了突破性的 HBC（High Bandwidth Compute）技術，不像傳統 XPU 需依賴昂貴且散熱困難的「矽中介層」（Silicon Interposer）來連接 HBM，HBC 直接將 XPU 置於 DRAM 下方，實現「近記憶體運算」，在消除資料傳輸瓶頸下，能夠提供高出 6 倍的每瓦頻寬。&lt;br /&gt;
+​&lt;br /&gt;
+高通在資料中心市場主打卓越的每瓦效能與總擁有成本（TCO），提供 AI 加速器、CPU、客製化晶片解決方案、網路連接產品等四大產品線，目標是在 FY2027 實現 50 億美元資料中心營收，目前已獲得兩家超大規模雲端服務商各超過 10 億美元的訂單。&lt;br /&gt;
+​&lt;br /&gt;
+2️⃣配套軟體與生態系支援&lt;br /&gt;
+為了打破 CUDA 生態鎖定，高通收購了 AI 軟體基礎架構公司 Modular，並與 AI 開源平台 HuggingFace 達成深度合作，讓超過 1,600 萬名開發者能無縫將模型部署於 Dragonfly 及其他高通平台上。&lt;br /&gt;
+​&lt;br /&gt;
+3️⃣Project Solara&lt;br /&gt;
+隨著進入 agentic AI 時代，高通與微軟合作推出了 Project Solara，這是專為 Agent-first 裝置所打造的全新硬體平台，未來的設備將同時服務「人類」與「AI 代理」這兩種不同的工作流程，這項計畫最初是由微軟在 Build 開發者大會上公開的。&lt;br /&gt;
+​&lt;br /&gt;
+高通預計，在 2026～2030 年間，全球年度 Token 需求將成長 40 倍，這迫使運算必須從雲端分散到邊緣，目前正與全球頂尖的 AI 公司展開合作，著手開發多達 40 種不同的全新硬體設計（包含智慧眼鏡等），以作為 AI 代理的終端，迎接智慧穿戴與邊緣運算的新時代。&lt;br /&gt;
+​&lt;br /&gt;
+4️⃣汽車領域&lt;br /&gt;
+高通將汽車視為實體 AI 走入現實的第一個範例，在面對實體 AI 帶來的大規模機遇下，高通計畫在汽車領域取勝（win in automotive）、顛覆工業領域（disrupt industrial），並定義機器人技術（define robotics）。&lt;br /&gt;
+​&lt;br /&gt;
+高通指出，車輛正從「軟體定義」快速演進為「AI 定義」，透過提供涵蓋汽車全系統架構的解決方案與高度彈性，並積極與全球數位生態系合作，目前訂單量（Pipeline）已達 650 億美元，預計在 FY2029 年實現百億美元等級的收入，成為全球最大的汽車半導體供應商。&lt;br /&gt;
+​&lt;br /&gt;
+5️⃣機器人與工業自動化&lt;br /&gt;
+高通透過 Dragon Wing 系列晶片，將汽車等級的安全性帶入機器人與工業自動化領域，過去工業多半只是在邊緣收集數據並傳送至雲端處理，但隨著 AI 發展，高通正透過邊緣運算，讓終端設備具備即時感測、推理與行動的能力。&lt;br /&gt;
+​&lt;br /&gt;
+至於機器人則是 AI 走入真實世界的終極型態，必須具備感知、推理與行動能力，高通提出了一套由「三個系統」完美協作的運算系統：&lt;br /&gt;
+● 思考大腦：處理高階邏輯，如識別環境中的物體&lt;br /&gt;
+● 動作規劃：負責協調肢體運動路徑&lt;br /&gt;
+● 神經反射：進行毫秒級的物理回饋調整&lt;br /&gt;
+​&lt;br /&gt;
+高通的機器人專用晶片（IQ10、IQ9、IQ8）已經投入生產，並與 Neura、Figure 等頂尖機器人公司達成深度合作，將 AI 模型與硬體參考設計推廣至物流、製造與未來的家庭應用中。&lt;br /&gt;
+​&lt;br /&gt;
+👉高通最新的財務展望顯示，隨著非手機業務的爆發性成長，未來手機營收佔比將降至約三分之一（維持約 5% 溫和成長），實現真正的業務多元化。CFO 指出，看好 EPS 將在 FY2029 突破 18 美元，並強調憑藉著目前所布局的多項成長動能，高通具備將總營收擴大至 1,000 億美元的強大潛力。&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src="https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/730373614_1484481397055336_9051883658434813915_n.jpg?_nc_cat=110&amp;amp;ccb=1-7&amp;amp;_nc_sid=127cfc&amp;amp;_nc_ohc=tL3SJcUI4kEQ7kNvwG9kQie&amp;amp;_nc_oc=AdpIEXcraJp8-gLcmiuB4oCrCFPC1drGjcMtFaG3Kk4nYXopiOVb7tEUHeFtd_KoiBE&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-cdg4-3.xx&amp;amp;edm=AJdBtusEAAAA&amp;amp;_nc_gid=AiU3njs23u1TsEIzPmGhuQ&amp;amp;_nc_tpa=Q5bMBQGhFp7v0zyWltZ4YAtFmkcP9T7q6bbI-HuW0fawe_mpkLm_ZVNGnUg9bGDG4TE4V94gupK189QO&amp;amp;oh=00_Af-SmgU1ri3rj5tmQQfyWhaNiW7Nno_CY5005sn7RiNrbw&amp;amp;oe=6A42EC15" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;span style="font-size: 12px; color: gray;"&gt;(Feed generated with &lt;a href="https://fetchrss.com/feedLink?w=69145e313b6bfa559d047f73" target="_blank"&gt;FetchRSS&lt;/a&gt;)&lt;/span&gt;</description><dc:creator>FinGuider 美股資訊網</dc:creator><pubDate>Thu, 25 Jun 2026 03:58:47 +0000</pubDate><ns1:content url="https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/730373614_1484481397055336_9051883658434813915_n.jpg?_nc_cat=110&amp;ccb=1-7&amp;_nc_sid=127cfc&amp;_nc_ohc=tL3SJcUI4kEQ7kNvwG9kQie&amp;_nc_oc=AdpIEXcraJp8-gLcmiuB4oCrCFPC1drGjcMtFaG3Kk4nYXopiOVb7tEUHeFtd_KoiBE&amp;_nc_zt=23&amp;_nc_ht=scontent-cdg4-3.xx&amp;edm=AJdBtusEAAAA&amp;_nc_gid=AiU3njs23u1TsEIzPmGhuQ&amp;_nc_tpa=Q5bMBQGhFp7v0zyWltZ4YAtFmkcP9T7q6bbI-HuW0fawe_mpkLm_ZVNGnUg9bGDG4TE4V94gupK189QO&amp;oh=00_Af-SmgU1ri3rj5tmQQfyWhaNiW7Nno_CY5005sn7RiNrbw&amp;oe=6A42EC15" medium="image" /><guid isPermaLink="false">107544104719529_1484480260388783</guid></item><item><title>記憶體大廠 #美光（#MU）盤後發布 FY2026Q3 財報，營收年增 346% 至 414.6 億美元、優於市場預期的 358.4 億，調整後 EPS 報 25.11 美元、遠優於預期的 20.78 美元，受惠於各終端市場強勁的價格表現，各事業單位皆創下...</title><link>https://www.facebook.com/520105843492901/posts/1484309847072491</link><description>記憶體大廠 #美光（#MU）盤後發布 FY2026Q3 財報，營收年增 346% 至 414.6 億美元、優於市場預期的 358.4 億，調整後 EPS 報 25.11 美元、遠優於預期的 20.78 美元，受惠於各終端市場強勁的價格表現，各事業單位皆創下營收新高，獲利也顯著擴張。展望未來，美光提供了輾壓分析師預期的 Q4 展望，並進一步調升資本支出指引，盤後飆升超過 +14%。&lt;br /&gt;
 ​&lt;br /&gt;
 📌DRAM、NAND 營收占比分別約 76%、24%，兩大業務皆受惠於產業供需緊繃、價格上漲、產品組合改善。DRAM 營收 313 億美元，年增 343%、季增 67%，出貨量較上一季成長約 1%～3%，ASP 季增約 61%～63%；NAND 營收 99 億美元，年增 361%、季增 99%，出貨量季增約 5%，ASP 較前一季上升約 85%。&lt;br /&gt;
 ​&lt;br /&gt;
