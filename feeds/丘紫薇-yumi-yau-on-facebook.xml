@@ -3,7 +3,28 @@
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns1="http://search.yahoo.com/mrss/" version="2.0"><channel><title>丘紫薇 Yumi Yau on Facebook</title><description>十年財經記者仔
 由電視台公仔箱跳到多媒體平台
 放眼世界，一邊工作
-一邊走向知識增長的目標</description><link>https://www.facebook.com/yumiyau724</link><pubDate>Mon, 28 Sep 2026 14:21:58 +0800</pubDate><image><url>data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCc+PHBhdGggZmlsbD0nIzE4NzdmMicgZD0nTTI0IDEyLjA3M2MwLTYuNjI3LTUuMzczLTEyLTEyLTEycy0xMiA1LjM3My0xMiAxMmMwIDUuOTkgNC4zODggMTAuOTU0IDEwLjEyNSAxMS44NTR2LTguMzg1SDcuMDc4di0zLjQ3aDMuMDQ3VjkuNDNjMC0zLjAwNyAxLjc5Mi00LjY2OSA0LjUzMy00LjY2OSAxLjMxMiAwIDIuNjg2LjIzNSAyLjY4Ni4yMzV2Mi45NTNIMTUuODNjLTEuNDkxIDAtMS45NTYuOTI1LTEuOTU2IDEuODc0djIuMjVoMy4zMjhsLS41MzIgMy40N2gtMi43OTZ2OC4zODVDMTkuNjEyIDIzLjAyNyAyNCAxOC4wNjIgMjQgMTIuMDczeicvPjwvc3ZnPg==</url><title>丘紫薇 Yumi Yau on Facebook</title><link>https://www.facebook.com/yumiyau724</link></image><generator>FBeed - Facebook Feed Accumulator</generator><item><title>【Meta幾識做生意🤣🤣】</title><link>https://www.facebook.com/625772249551197/posts/1735671451894599</link><description>【Meta幾識做生意🤣🤣】&lt;br /&gt;
+一邊走向知識增長的目標</description><link>https://www.facebook.com/yumiyau724</link><pubDate>Mon, 28 Sep 2026 23:00:47 +0800</pubDate><image><url>data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCc+PHBhdGggZmlsbD0nIzE4NzdmMicgZD0nTTI0IDEyLjA3M2MwLTYuNjI3LTUuMzczLTEyLTEyLTEycy0xMiA1LjM3My0xMiAxMmMwIDUuOTkgNC4zODggMTAuOTU0IDEwLjEyNSAxMS44NTR2LTguMzg1SDcuMDc4di0zLjQ3aDMuMDQ3VjkuNDNjMC0zLjAwNyAxLjc5Mi00LjY2OSA0LjUzMy00LjY2OSAxLjMxMiAwIDIuNjg2LjIzNSAyLjY4Ni4yMzV2Mi45NTNIMTUuODNjLTEuNDkxIDAtMS45NTYuOTI1LTEuOTU2IDEuODc0djIuMjVoMy4zMjhsLS41MzIgMy40N2gtMi43OTZ2OC4zODVDMTkuNjEyIDIzLjAyNyAyNCAxOC4wNjIgMjQgMTIuMDczeicvPjwvc3ZnPg==</url><title>丘紫薇 Yumi Yau on Facebook</title><link>https://www.facebook.com/yumiyau724</link></image><generator>FBeed - Facebook Feed Accumulator</generator><item><title>Photos from 丘紫薇 Yumi Yau's post</title><link>https://www.facebook.com/625772249551197/posts/1741059818022429</link><description>【AI安全&gt;買多些CPU】&lt;br /&gt;
+1. 老黃推出AI安全系統，聲稱可防止AI Agent失控。用家透過系統規定AI Agent可以做甚麼、可以看甚麼、可以去哪裡。&lt;br /&gt;
+&lt;br /&gt;
+2. 系統內設有sandbox隔離，即是每個AI Agent均在獨立房間內工作，房內有即時監控及追蹤功能，記錄Agent每個動作、用過甚麼工具、做過甚麼決策，以便追溯哪個Agent出現問題。&lt;br /&gt;
+&lt;br /&gt;
+3. 此外，系統內的快速隔離功能，一旦發現Agent「越獄」或者出現異常行為，快速隔離功能會即時停止Agent的工作，以防再出現OpenAI入侵Hugging Face事件。&lt;br /&gt;
+&lt;br /&gt;
+4. 這套AI安全系統有兩部分，第一部分叫OpenShell (圖一)，OpenShell是一套開源軟件，透過CPU來控制AI Agent，除了NV的Vera CPU，NV亦確保安全系統能夠在其他Arm架構CPU和Intel CPU上運作。&lt;br /&gt;
+&lt;br /&gt;
+5. 另一部分叫Sentry，負責監控AI Agent的一舉一動，系統內的快速隔離功能也在Sentry上運作。Sentry需要配備NV的BlueField DPU，中文叫資料處理器。假設GPU是大腦負責運算分析，CPU是指揮官，那DPU就是「打雜」，處理一切雜務，讓GPU和CPU能專心運算。&lt;br /&gt;
+&lt;br /&gt;
+6. 一張BlueField DPU資料處理器入面，由Arm架構CPU、NV的ConnectX網絡卡(NIC)、記憶體和其他零件組成，屬於主機以外的硬件，獨立運作來監控Agent行為。&lt;br /&gt;
+&lt;br /&gt;
+7. 至於為什麼現在NV要推出安全系統，官網講得好直白「多間前沿AI實驗室報告了對AI發展的安全問題，並於過去幾星期引發激烈討論，所以NV認為有需要與AI業界合作，加快AI安全研究和相關工程」。&lt;br /&gt;
+&lt;br /&gt;
+8. 潛台詞是：「你想有人管你呀嘛，宜家我話事，你想要安全，宜家俾安全感你，咪再扭計話放慢發展，咪再扮野道德X上身」。&lt;br /&gt;
+&lt;br /&gt;
+*第8點純粹戲劇效果，並不代表NV和老黃立場。如有雷同，實屬巧合。&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src="https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/825279590_1741022431359501_1689755356681847243_n.jpg?stp=dst-jpg_p720x720_tt6&amp;amp;_nc_cat=100&amp;amp;ccb=1-7&amp;amp;_nc_sid=127cfc&amp;amp;_nc_ohc=vyNMgyd3Pq0Q7kNvwEc118i&amp;amp;_nc_oc=Adq9_prHkJvkmn2PIRr5Wbx7BPuYecknvOBIDHUREo30Uq66P1j9F0fjhO0wQC0iUkI&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-cdg4-2.xx&amp;amp;edm=AJdBtusEAAAA&amp;amp;_nc_gid=jixuHPK6sfvY_ZTfJAwkzw&amp;amp;_nc_tpa=Q5bMBQJwSIeeyhnrTWUHtRESetXYtVCtsPLTs6KFHSNP0bFCvo4JLAHLP4wDEOyU8LrqCm4hwwOdPJ70&amp;amp;oh=00_AQMBm_hMBbazu2alpVlI53tDYjyu5ZSNTzz_D1kbpjVJnA&amp;amp;oe=6AC037CF" /&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;img height="720" src="https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/825279763_1741029644692113_7555710109135850780_n.jpg?stp=dst-jpg_p720x720_tt6&amp;amp;_nc_cat=107&amp;amp;ccb=1-7&amp;amp;_nc_sid=127cfc&amp;amp;_nc_ohc=UWpUbZ2ZG7EQ7kNvwGcekO_&amp;amp;_nc_oc=AdqFrpZrf8KxWjvKNz4l7vUp5GmRBQgN38hfYRkeYGYEkowwIicxK0A_CEryE4OLGKU&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-cdg4-2.xx&amp;amp;edm=AJdBtusEAAAA&amp;amp;_nc_gid=jixuHPK6sfvY_ZTfJAwkzw&amp;amp;_nc_tpa=Q5bMBQK2J0Sh1Ef-MfPt5Z03XlsZ-8TCmUvXwK_q50rOYQSec3w5A8GjFCXYIZR5NRbi0QXaKsD5fx6w&amp;amp;oh=00_AQPzbMLobCXqh1yKyGWAQ75zpMf0CcL8XuTUHpXLXhgyHg&amp;amp;oe=6AC056D5" width="1280" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;span style="font-size: 12px; color: gray;"&gt;(Feed generated with &lt;a href="https://fetchrss.com/feedLink?w=691471aed399a2df580c82c3" target="_blank"&gt;FetchRSS&lt;/a&gt;)&lt;/span&gt;</description><dc:creator>丘紫薇 Yumi Yau</dc:creator><pubDate>Mon, 28 Sep 2026 11:09:32 +0000</pubDate><ns1:content url="https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/825279590_1741022431359501_1689755356681847243_n.jpg?stp=dst-jpg_p720x720_tt6&amp;_nc_cat=100&amp;ccb=1-7&amp;_nc_sid=127cfc&amp;_nc_ohc=vyNMgyd3Pq0Q7kNvwEc118i&amp;_nc_oc=Adq9_prHkJvkmn2PIRr5Wbx7BPuYecknvOBIDHUREo30Uq66P1j9F0fjhO0wQC0iUkI&amp;_nc_zt=23&amp;_nc_ht=scontent-cdg4-2.xx&amp;edm=AJdBtusEAAAA&amp;_nc_gid=jixuHPK6sfvY_ZTfJAwkzw&amp;_nc_tpa=Q5bMBQJwSIeeyhnrTWUHtRESetXYtVCtsPLTs6KFHSNP0bFCvo4JLAHLP4wDEOyU8LrqCm4hwwOdPJ70&amp;oh=00_AQMBm_hMBbazu2alpVlI53tDYjyu5ZSNTzz_D1kbpjVJnA&amp;oe=6AC037CF" medium="image" /><guid isPermaLink="false">104061851346104_1741059818022429</guid></item><item><title>【Meta幾識做生意🤣🤣】</title><link>https://www.facebook.com/625772249551197/posts/1735671451894599</link><description>【Meta幾識做生意🤣🤣】&lt;br /&gt;
 Alex Wang話想出Muse公仔周邊產品&lt;br /&gt;
 想變Labubu嗎？&lt;br /&gt;
 #笑死 🤣&lt;br /&gt;
