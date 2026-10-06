@@ -3,7 +3,26 @@
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns1="http://search.yahoo.com/mrss/" version="2.0"><channel><title>丘紫薇 Yumi Yau on Facebook</title><description>十年財經記者仔
 由電視台公仔箱跳到多媒體平台
 放眼世界，一邊工作
-一邊走向知識增長的目標</description><link>https://www.facebook.com/yumiyau724</link><pubDate>Tue, 06 Oct 2026 15:14:47 +0800</pubDate><image><url>data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCc+PHBhdGggZmlsbD0nIzE4NzdmMicgZD0nTTI0IDEyLjA3M2MwLTYuNjI3LTUuMzczLTEyLTEyLTEycy0xMiA1LjM3My0xMiAxMmMwIDUuOTkgNC4zODggMTAuOTU0IDEwLjEyNSAxMS44NTR2LTguMzg1SDcuMDc4di0zLjQ3aDMuMDQ3VjkuNDNjMC0zLjAwNyAxLjc5Mi00LjY2OSA0LjUzMy00LjY2OSAxLjMxMiAwIDIuNjg2LjIzNSAyLjY4Ni4yMzV2Mi45NTNIMTUuODNjLTEuNDkxIDAtMS45NTYuOTI1LTEuOTU2IDEuODc0djIuMjVoMy4zMjhsLS41MzIgMy40N2gtMi43OTZ2OC4zODVDMTkuNjEyIDIzLjAyNyAyNCAxOC4wNjIgMjQgMTIuMDczeicvPjwvc3ZnPg==</url><title>丘紫薇 Yumi Yau on Facebook</title><link>https://www.facebook.com/yumiyau724</link></image><generator>FBeed - Facebook Feed Accumulator</generator><item><title>Photos from 丘紫薇 Yumi Yau's post</title><link>https://www.facebook.com/625772249551197/posts/1745686220893122</link><description>【權宜之計，記憶體頻寬重要過容量】&lt;br /&gt;
+一邊走向知識增長的目標</description><link>https://www.facebook.com/yumiyau724</link><pubDate>Tue, 06 Oct 2026 22:47:50 +0800</pubDate><image><url>data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCc+PHBhdGggZmlsbD0nIzE4NzdmMicgZD0nTTI0IDEyLjA3M2MwLTYuNjI3LTUuMzczLTEyLTEyLTEycy0xMiA1LjM3My0xMiAxMmMwIDUuOTkgNC4zODggMTAuOTU0IDEwLjEyNSAxMS44NTR2LTguMzg1SDcuMDc4di0zLjQ3aDMuMDQ3VjkuNDNjMC0zLjAwNyAxLjc5Mi00LjY2OSA0LjUzMy00LjY2OSAxLjMxMiAwIDIuNjg2LjIzNSAyLjY4Ni4yMzV2Mi45NTNIMTUuODNjLTEuNDkxIDAtMS45NTYuOTI1LTEuOTU2IDEuODc0djIuMjVoMy4zMjhsLS41MzIgMy40N2gtMi43OTZ2OC4zODVDMTkuNjEyIDIzLjAyNyAyNCAxOC4wNjIgMjQgMTIuMDczeicvPjwvc3ZnPg==</url><title>丘紫薇 Yumi Yau on Facebook</title><link>https://www.facebook.com/yumiyau724</link></image><generator>FBeed - Facebook Feed Accumulator</generator><item><title>【關於半導體製造產業的筆記】</title><link>https://www.facebook.com/625772249551197/posts/1748957553899322</link><description>【關於半導體製造產業的筆記】&lt;br /&gt;
+1. 重新檢視「半導體封測代工」(Outsourced Semiconductor Assembly and Test, OSAT)領域，即是封裝和測試，以往這些工序被視為「下欄野」(瑣碎、毛利低)，但如今隨著晶片設計愈來愈複雜，測試方面需求增加，相關成本亦上升，OSAT的工作出現了變化。&lt;br /&gt;
+&lt;br /&gt;
+2. 先進封裝CoWoS由台積電開發，台積電固然在先進封裝佔有主導地位，不過需求已遠超台積電的產能，擴建新的CoWoS生產線需時一年半至兩年，所以供需缺口至少持續到2027年。紓緩產能短缺的其中一個方法，就是外判予OSAT公司。&lt;br /&gt;
+&lt;br /&gt;
+3. CoWoS分為兩部分：CoW(Chip-on-Wafer)是台積電先把GPU、CPU和記憶體黏在一起；黏好之後，整塊GPU+CPU+記憶體要再黏在基板上，這部分叫WoS(Wafer-on-Substrate)，才完成封裝。&lt;br /&gt;
+&lt;br /&gt;
+4. 其中CoW屬於高價值工序，所以台積電一向自己造、自己賺，只把利潤較低的WoS外判予日月光這些公司。不過產能短缺，台積電連CoW相關製程也開始外判予OSAT公司。除了先進封裝，半導體封測代工OSAT公司亦做記憶體封裝、系統級測試和光學封裝。&lt;br /&gt;
+&lt;br /&gt;
+5. 其中記憶體封裝和測試方面，HBM每升級一代，測試項目也增加。根據三星的說法，HBM佔DRAM記憶體將由目前20%提高至明年近30%，當中較高階的HBM4佔HBM的出貨比重由40%上升至80%，利好測試需求。&lt;br /&gt;
+&lt;br /&gt;
+6. 系統級測試方面，NV的Blackwell晶片需要的測試強度是上一代Hopper的4倍，至於即將出貨的Rubin晶片，測試強度是Hopper的7倍。測試強度加強，所需時間也增加，Rubin晶片的測試時間，比上兩代的Hopper多兩倍半。&lt;br /&gt;
+&lt;br /&gt;
+7. 除了系統級測試，燒機測試所需時間也增加。甚麼是燒機測試(Burn-in Test)？就是把剛造好的晶片放在高溫、高電壓環境下連續運作數小時、甚至數十小時，讓品質不穩定的晶片提早整壞，確保交付予客戶的晶片是耐用的良品。野村估計，系統級和燒機測試的成本，佔GPU總成本比例將由Hopper時期的1.9%升至Rubin的3.3%。&lt;br /&gt;
+&lt;br /&gt;
+8. 至於光學封裝測試，CPO技術將光學引擎和晶片封裝在一起，因為產品成本高，如果產品質素參差的話有損毛利，所以愈早發現低品質的晶片或光學引擎，一來避免影響良率，二來降低交付緊張時期出現的產量風險。去到光通訊，現有測試設備的能力未必足以應付，所以會有兩種做法，升級現有設備、以及新增專用設備。&lt;br /&gt;
+&lt;br /&gt;
+9. 九月初台媒報道NV以較高價格獲得主要測試供應商產能，另有傳AMD蘇媽本周將再訪台灣，爭取更多先進製程、封裝和測試產能，並確認液冷散熱和伺服器機櫃組裝等工序進展。&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src="https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/834023237_1748957423899335_5975111460826049403_n.jpg?_nc_cat=104&amp;amp;ccb=1-7&amp;amp;_nc_sid=127cfc&amp;amp;_nc_ohc=DWcEej1LLicQ7kNvwF3M6i9&amp;amp;_nc_oc=Adqew6E6jvd5ingcmU_1_1BEmN499M0prNUQuUK_xPkj4Lo3Nm02HZ6cl4DAZgg-9Y8&amp;amp;_nc_zt=23&amp;amp;_nc_ht=scontent-cdg4-1.xx&amp;amp;edm=AJdBtusEAAAA&amp;amp;_nc_gid=9S_67lYi2Gmh9FmTbuzyJw&amp;amp;_nc_tpa=Q5bMBQJgNdD6GOfKj-ulpY9A629NRVKxmtPsAmY0O20YHrCeLSNei1ubk3z-yVdROFvUd2GkK3H_TtHn&amp;amp;oh=00_AQPwHm5FYN6Fjydge6oazUtDA2bTlmnKfagYh4C8FVGgjQ&amp;amp;oe=6ACAC2E1" /&gt;&lt;br /&gt;&lt;br /&gt;&lt;span style="font-size: 12px; color: gray;"&gt;(Feed generated with &lt;a href="https://fetchrss.com/feedLink?w=691471aed399a2df580c82c3" target="_blank"&gt;FetchRSS&lt;/a&gt;)&lt;/span&gt;</description><dc:creator>丘紫薇 Yumi Yau</dc:creator><pubDate>Mon, 05 Oct 2026 11:41:49 +0000</pubDate><ns1:content url="https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/834023237_1748957423899335_5975111460826049403_n.jpg?_nc_cat=104&amp;ccb=1-7&amp;_nc_sid=127cfc&amp;_nc_ohc=DWcEej1LLicQ7kNvwF3M6i9&amp;_nc_oc=Adqew6E6jvd5ingcmU_1_1BEmN499M0prNUQuUK_xPkj4Lo3Nm02HZ6cl4DAZgg-9Y8&amp;_nc_zt=23&amp;_nc_ht=scontent-cdg4-1.xx&amp;edm=AJdBtusEAAAA&amp;_nc_gid=9S_67lYi2Gmh9FmTbuzyJw&amp;_nc_tpa=Q5bMBQJgNdD6GOfKj-ulpY9A629NRVKxmtPsAmY0O20YHrCeLSNei1ubk3z-yVdROFvUd2GkK3H_TtHn&amp;oh=00_AQPwHm5FYN6Fjydge6oazUtDA2bTlmnKfagYh4C8FVGgjQ&amp;oe=6ACAC2E1" medium="image" /><guid isPermaLink="false">104061851346104_1748957553899322</guid></item><item><title>Photos from 丘紫薇 Yumi Yau's post</title><link>https://www.facebook.com/625772249551197/posts/1745686220893122</link><description>【權宜之計，記憶體頻寬重要過容量】&lt;br /&gt;
 1. MU業績好，意料之內；戰略客戶合約SCA數量和合約規模擴大，反映目前記憶體供不應求，意料之內；管理層話今季86.25%毛利率是底，為市場帶來憧憬，但是需求決定權永遠在客人手上。&lt;br /&gt;
 &lt;br /&gt;
 2. 三大記憶體廠能加價，因為「產能有限」這四隻字，產能有限即是限制產品數量，影響客戶出貨量；加價幅度大於其他半導體領域，影響終端客戶包括CSP雲端商資本開支分配，要無限個季度因為記憶體價格而上調資本開支嗎？&lt;br /&gt;
